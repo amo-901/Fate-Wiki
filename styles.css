@@ -13,5 +13,6 @@ body {
 .servant-card {
     width: 150px;
     height: 210px;
+    border: 1px solid rgb(85, 5, 5);
     border-radius: 10px;
 }
