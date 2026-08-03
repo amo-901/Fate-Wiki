@@ -1,0 +1,12 @@
+.cards-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    background-color: dodgerblue;
+    padding: 10px;
+}
+
+.servant-card {
+    width: 180px;
+    height: 260px;
+    border-radius: 10px;
+}
