@@ -1,0 +1,67 @@
+[
+  {
+    "servant_id": "S0001",
+    "servant_name": "Artoria Pendragon",
+    "slug": "artoria-pendragon",
+    "class": "Saber",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,3,4,4,4,5",
+    "deck_agility": "3",
+    "deck_magic": "2,3",
+    "deck_special": "Surveil,Luck,Luck",
+    "has_unique": false
+  },
+  {
+    "servant_id": "S0097",
+    "servant_name": "Solomon Ibn Gabirol",
+    "slug": "solomon-ibn-gabirol",
+    "class": "Caster",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": null,
+    "deck_agility": null,
+    "deck_magic": "2,2,3,4",
+    "deck_special": "Surveil,Preparation,Preparation",
+    "has_unique": true
+  },
+  {
+    "servant_id": "S0167",
+    "servant_name": "Taira no Kagekiyo",
+    "slug": "taira-no-kagekiyo",
+    "class": "Avenger",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,3,4",
+    "deck_agility": "3,3,4,4,5",
+    "deck_magic": null,
+    "deck_special": "Luck,Surveil,Preparation,Avenger Class",
+    "has_unique": false
+  },
+  {
+    "servant_id": "S0178",
+    "servant_name": "Yao Bikuni",
+    "slug": "yao-bikuni",
+    "class": "Moon Cancer",
+    "playstyle": "Scammer",
+    "description": null,
+    "deck_strength": "2,3",
+    "deck_agility": "3",
+    "deck_magic": "4,4,5",
+    "deck_special": "Luck,Luck,Surveil,Surveil,Preparation,Moon Cancer",
+    "has_unique": false
+  },
+  {
+    "servant_id": "S0184",
+    "servant_name": "Mash Kyrielight",
+    "slug": "mash-kyrielight",
+    "class": "Shielder",
+    "playstyle": "Bulwark",
+    "description": null,
+    "deck_strength": "2,3,3,4,4",
+    "deck_agility": "2,3,3",
+    "deck_magic": null,
+    "deck_special": "Surveil,Preparation",
+    "has_unique": true
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "servant_id": "S0001",
+    "skill_owner": "Artoria Pendragon",
+    "skill_order": 1,
+    "is_shared": true,
+    "skill_name": "Saber Class",
+    "skill_description": null
+  },
+  {
+    "servant_id": "S0001",
+    "skill_owner": "Artoria Pendragon",
+    "skill_order": 2,
+    "is_shared": false,
+    "skill_name": "Excalibur",
+    "skill_description": null
+  },
+  {
+    "servant_id": "S0001",
+    "skill_owner": "Artoria Pendragon",
+    "skill_order": 3,
+    "is_shared": false,
+    "skill_name": "Invisible Air",
+    "skill_description": null
+  },
+  {
+    "servant_id": "S0097",
+    "skill_owner": "Solomon Ibn Gabirol",
+    "skill_order": 1,
+    "is_shared": true,
+    "skill_name": "Caster Class",
+    "skill_description": null
+  },
+  {
+    "servant_id": "S0097",
+    "skill_owner": "Solomon Ibn Gabirol",
+    "skill_order": 2,
+    "is_shared": false,
+    "skill_name": "Golem Keter Malkuth",
+    "skill_description": null
+  },
+  {
+    "servant_id": "S0097",
+    "skill_owner": "Solomon Ibn Gabirol",
+    "skill_order": 3,
+    "is_shared": false,
+    "skill_name": "Rigorous Research",
+    "skill_description": null
+  },
+  {
+    "servant_id": "S0167",
+    "skill_owner": "Taira no Kagekiyo",
+    "skill_order": 1,
+    "is_shared": false,
+    "skill_name": "Kagekiyo Never Dies",
+    "skill_description": null
+  },
+  {
+    "servant_id": "S0167",
+    "skill_owner": "Taira no Kagekiyo",
+    "skill_order": 2,
+    "is_shared": false,
+    "skill_name": "Azamaru",
+    "skill_description": null
+  },
+  {
+    "servant_id": "S0167",
+    "skill_owner": "Taira no Kagekiyo",
+    "skill_order": 3,
+    "is_shared": false,
+    "skill_name": "Oblivion Correction",
+    "skill_description": null
+  },
+  {
+    "servant_id": "S0178",
+    "skill_owner": "Yao Bikuni",
+    "skill_order": 1,
+    "is_shared": false,
+    "skill_name": "Mermaid's Flesh",
+    "skill_description": null
+  },
+  {
+    "servant_id": "S0178",
+    "skill_owner": "Yao Bikuni",
+    "skill_order": 2,
+    "is_shared": false,
+    "skill_name": "Shen's Palace",
+    "skill_description": null
+  },
+  {
+    "servant_id": "S0178",
+    "skill_owner": "Yao Bikuni",
+    "skill_order": 3,
+    "is_shared": false,
+    "skill_name": "Divine Emanation",
+    "skill_description": null
+  },
+  {
+    "servant_id": "S0184",
+    "skill_owner": "Mash Kyrielight",
+    "skill_order": 1,
+    "is_shared": false,
+    "skill_name": "Ortenaus",
+    "skill_description": null
+  },
+  {
+    "servant_id": "S0184",
+    "skill_owner": "Mash Kyrielight",
+    "skill_order": 2,
+    "is_shared": false,
+    "skill_name": "Wall of Snowflakes",
+    "skill_description": null
+  },
+  {
+    "servant_id": "S0184",
+    "skill_owner": "Mash Kyrielight",
+    "skill_order": 3,
+    "is_shared": false,
+    "skill_name": "Lord Camelot",
+    "skill_description": null
+  }
+]
