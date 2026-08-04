@@ -48,7 +48,8 @@ function openServantModal(servant) {
 
 function getSkillImagePath(servant, skill) {
   if (skill.is_shared) {
-    return `images/Shared-Class-Skills/${servant.class}_Class.webp`;
+    const filename = skill.skill_name.replace(/ /g, '_') + '.webp';
+    return `images/Shared-Class-Skills/${filename}`;
   } else {
     return `images/Servants/${servant.servant_id}/Skill${skill.skill_order}.webp`;
   }
