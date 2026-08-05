@@ -861,6 +861,830 @@
     "altForm": null
   },
   {
+    "servant_id": "S0025",
+    "servant_name": "Diarmuid Ua Duibhne",
+    "slug": "diarmuid-ua-duibhne",
+    "class": "Lancer",
+    "playstyle": "Thrasher",
+    "description": null,
+    "deck_strength": "3,4,5",
+    "deck_agility": "2,3,3,4,4,4,5,5",
+    "deck_magic": null,
+    "deck_special": "Surveil",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Lancer Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Gae Buidhe",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Gae Dearg",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0026",
+    "servant_name": "Karna",
+    "slug": "karna",
+    "class": "Lancer",
+    "playstyle": "Thrasher",
+    "description": null,
+    "deck_strength": "2,4,5",
+    "deck_agility": "2,3,3,4,5",
+    "deck_magic": "4",
+    "deck_special": "Luck,Surveil,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Vasavi Shakti",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Brahmastra Kundala",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Kavacha & Kundala",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0027",
+    "servant_name": "Vlad Tepes",
+    "slug": "vlad-tepes",
+    "class": "Lancer",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,2,3",
+    "deck_agility": "2,2,3,4,5",
+    "deck_magic": null,
+    "deck_special": "Luck,Surveil,Preparation,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Lancer Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Kazikli Bey",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Protector of the Nation",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0028",
+    "servant_name": "Elizabeth Bathory",
+    "slug": "elizabeth-bathory",
+    "class": "Lancer",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,3,4,4",
+    "deck_agility": "2,3,3,4",
+    "deck_magic": "2,3",
+    "deck_special": "Luck,Luck",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Prison Castle Csejte",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Kilenc Sárkány",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Torture Techniques",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0029",
+    "servant_name": "Scáthach",
+    "slug": "scathach",
+    "class": "Lancer",
+    "playstyle": "Thrasher",
+    "description": null,
+    "deck_strength": null,
+    "deck_agility": "2,3,4,5,5",
+    "deck_magic": "2,3,4,5",
+    "deck_special": "Luck,Surveil,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Gate of Skye",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Gáe Bolg Alternative",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Wisdom of Dun Scaith",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0030",
+    "servant_name": "Valkyrie",
+    "slug": "valkyrie",
+    "class": "Lancer",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,3",
+    "deck_agility": "2,2,4",
+    "deck_magic": "2,3",
+    "deck_special": "Luck,Luck",
+    "has_unique": true,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Gungnir",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Ragnarök",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Svanhvit",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [
+      {
+        "card_name": "Commander Ortlinde",
+        "card_slug": "Commander-Ortlinde",
+        "quantity": 1,
+        "description": null
+      },
+      {
+        "card_name": "Commander Hildr",
+        "card_slug": "Commander-Hildr",
+        "quantity": 1,
+        "description": null
+      },
+      {
+        "card_name": "Commander Thrud",
+        "card_slug": "Commander-Thrud",
+        "quantity": 1,
+        "description": null
+      }
+    ],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0031",
+    "servant_name": "Ereshkigal",
+    "slug": "ereshkigal",
+    "class": "Lancer",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,4",
+    "deck_agility": "2,3,3,4",
+    "deck_magic": "2,4,5",
+    "deck_special": "Luck,Preparation,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Lancer Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Kur Kigal Irkalla",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Blessing of Kur",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0032",
+    "servant_name": "Enkidu",
+    "slug": "enkidu",
+    "class": "Lancer",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,3,4",
+    "deck_agility": "3,4,4",
+    "deck_magic": "2,3,4",
+    "deck_special": "Luck,Surveil,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Lancer Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Enuma Elish (Enkidu)",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Transfiguration",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0033",
+    "servant_name": "Meltryllis",
+    "slug": "meltryllis",
+    "class": "Alter Ego",
+    "playstyle": "Bulwark",
+    "description": null,
+    "deck_strength": "2",
+    "deck_agility": "2,3,3,4,5",
+    "deck_magic": "2,3,4",
+    "deck_special": "Luck,Surveil,Surveil",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Alter Ego Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Saraswati Meltout",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Melt Virus",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0034",
+    "servant_name": "Brynhildr",
+    "slug": "brynhildr",
+    "class": "Lancer",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,2,3",
+    "deck_agility": "2,3,4,5",
+    "deck_magic": "3,4,5",
+    "deck_special": "Luck,Surveil",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Lancer Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Brynhildr Romantia",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Hero's Bridesmaid",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0035",
+    "servant_name": "Caenis",
+    "slug": "caenis",
+    "class": "Lancer",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,3,4,5,5",
+    "deck_agility": "2,3,3,4",
+    "deck_magic": null,
+    "deck_special": "Luck,Luck,Surveil",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Great Golden Wings",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Poseidon's Favor",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Poseidon's Maelstrom",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0036",
+    "servant_name": "Leonidas I",
+    "slug": "leonidas-i",
+    "class": "Lancer",
+    "playstyle": "Bulwark",
+    "description": null,
+    "deck_strength": "2,3,3,4",
+    "deck_agility": "2,2,3,5",
+    "deck_magic": null,
+    "deck_special": "Luck,Preparation,Preparation,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Thermopylae Enomotia",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Spartan War Cry",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Rear Guard's Pride",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0037",
+    "servant_name": "Romulus",
+    "slug": "romulus",
+    "class": "Lancer",
+    "playstyle": "Thrasher",
+    "description": null,
+    "deck_strength": "2,4,5",
+    "deck_agility": "2,2,4,5",
+    "deck_magic": "2,3",
+    "deck_special": "Luck,Luck,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Lancer Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Magna Voluisse Magnum",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Moles Necessrie",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0038",
+    "servant_name": "Jaguar Man",
+    "slug": "jaguar-man",
+    "class": "Lancer",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,2,3,4",
+    "deck_agility": "2,2,4,4,5",
+    "deck_magic": null,
+    "deck_special": "Luck,Surveil,Surveil",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Lancer Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Great Death Claw",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Law of the Jungle",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0039",
+    "servant_name": "Musashibou Benkei",
+    "slug": "musashibou-benkei",
+    "class": "Lancer",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "3,4,5,5,5",
+    "deck_agility": "3,3,3",
+    "deck_magic": "3",
+    "deck_special": "Luck,Preparation,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Lancer Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Bulwark Stance",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Evenly Matched",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0040",
+    "servant_name": "Don Quixote",
+    "slug": "don-quixote",
+    "class": "Lancer",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,2,3,4",
+    "deck_agility": "2,2,3,4,4",
+    "deck_magic": null,
+    "deck_special": "Luck,Surveil,Surveil",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Lancer Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Valiente Asalto",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Knight's Fantasy",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0041",
+    "servant_name": "The Lion King",
+    "slug": "the-lion-king",
+    "class": "Lancer",
+    "playstyle": "Thrasher",
+    "description": null,
+    "deck_strength": "2,2,3,4,5,5",
+    "deck_agility": "3,4",
+    "deck_magic": "2",
+    "deck_special": "Luck,Luck,Surveil",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Rhongomyniad",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Divine Command",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Dun Stallion",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0042",
+    "servant_name": "Bradamante",
+    "slug": "bradamante",
+    "class": "Lancer",
+    "playstyle": "Bulwark",
+    "description": null,
+    "deck_strength": "3,3",
+    "deck_agility": "2,4,4,5",
+    "deck_magic": "3,4,4",
+    "deck_special": "Luck,Surveil,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Lancer Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Bouclier d'Atlante",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Angelica Cathay",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0043",
+    "servant_name": "Gareth",
+    "slug": "gareth",
+    "class": "Lancer",
+    "playstyle": "Bulwark",
+    "description": null,
+    "deck_strength": "2,3,3",
+    "deck_agility": "3,3,4,5",
+    "deck_magic": "2,2,2",
+    "deck_special": "Luck,Luck",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Ira Lupus",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Gun Lance",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Ring of Transformation",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0044",
+    "servant_name": "Nagao Kagetora",
+    "slug": "nagao-kagetora",
+    "class": "Lancer",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,3,5",
+    "deck_agility": "2,2,2,3,3",
+    "deck_magic": "2",
+    "deck_special": "Luck,Luck,Surveil",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Lancer Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "8 Phase Wheel Charge",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "God of War",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0045",
+    "servant_name": "Mélusine",
+    "slug": "melusine",
+    "class": "Lancer",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "3,3,3",
+    "deck_agility": "4,4,5,5",
+    "deck_magic": "2,3",
+    "deck_special": "Luck,Surveil,Surveil",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Innocence Arondight",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Ray Horizon",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Perl Dancer",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0046",
+    "servant_name": "Parvati",
+    "slug": "parvati",
+    "class": "Lancer",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,3,4",
+    "deck_agility": "2,3,5",
+    "deck_magic": "4,4,4",
+    "deck_special": "Luck,Luck,Surveil",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Trishula Shakti",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Imaginary Around",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Ashes of Kama",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0047",
+    "servant_name": "Emiya",
+    "slug": "emiya",
+    "class": "Archer",
+    "playstyle": "Thrasher",
+    "description": null,
+    "deck_strength": "2,3",
+    "deck_agility": "2,2,3,4",
+    "deck_magic": "2,3,4",
+    "deck_special": "Surveil,Preparation,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Caladbolg II",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Unlimited Blade Works",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Rho Aias",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
     "servant_id": "S0048",
     "servant_name": "Gilgamesh",
     "slug": "gilgamesh",
@@ -889,6 +1713,706 @@
         "skill_order": 3,
         "is_shared": false,
         "skill_name": "Gate of Babylon",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0049",
+    "servant_name": "Oda Nobunaga",
+    "slug": "oda-nobunaga",
+    "class": "Archer",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,2,3,5",
+    "deck_agility": "2,3,4,4,4",
+    "deck_magic": null,
+    "deck_special": "Preparation,Preparation,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Three Line Formation",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Papiyas",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Fool of Owari",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0050",
+    "servant_name": "Atalanta",
+    "slug": "atalanta",
+    "class": "Archer",
+    "playstyle": "Scammer",
+    "description": null,
+    "deck_strength": "2,2,3",
+    "deck_agility": "2,2,3,4,4,4",
+    "deck_magic": null,
+    "deck_special": "Preparation,Preparation,Surveil",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Archer Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Phoebus Catastrophe",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Agrius Metamorphosis",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0051",
+    "servant_name": "Chiron",
+    "slug": "chiron",
+    "class": "Archer",
+    "playstyle": "Scammer",
+    "description": null,
+    "deck_strength": "2,2,5,5",
+    "deck_agility": "2,2,3,5,5",
+    "deck_magic": "2",
+    "deck_special": "Luck,Surveil",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Archer Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Antares Snipe",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Divine Wisdom",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0052",
+    "servant_name": "Robin Hood",
+    "slug": "robin-hood",
+    "class": "Archer",
+    "playstyle": "Scammer",
+    "description": null,
+    "deck_strength": null,
+    "deck_agility": "2,2,3,3,3,4",
+    "deck_magic": "2,2,3",
+    "deck_special": "Surveil,Preparation,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Archer Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Yew Bow",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "No Face May King",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0053",
+    "servant_name": "Arjuna",
+    "slug": "arjuna",
+    "class": "Archer",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,3,5",
+    "deck_agility": "2,3,4,5",
+    "deck_magic": "2,3",
+    "deck_special": "Luck,Surveil,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Pashupata",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Agni Gandiva",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "The Endowed Hero",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0054",
+    "servant_name": "Ishtar",
+    "slug": "ishtar",
+    "class": "Archer",
+    "playstyle": "Scammer",
+    "description": null,
+    "deck_strength": "2,3",
+    "deck_agility": "2,3,4",
+    "deck_magic": "2,4,4,5",
+    "deck_special": "Surveil,Surveil,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Archer Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "An Gal Ta Kigal She",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Divine Authority",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0055",
+    "servant_name": "Mecha Eli-chan",
+    "slug": "mecha-eli-chan",
+    "class": "Alter Ego",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,3,5",
+    "deck_agility": "2,2,4",
+    "deck_magic": "2,3,4",
+    "deck_special": "Luck,Surveil,Surveil",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Alter Ego Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Breast Zero",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Rocket Fists",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0056",
+    "servant_name": "Arash",
+    "slug": "arash",
+    "class": "Archer",
+    "playstyle": "Thrasher",
+    "description": null,
+    "deck_strength": "2,3,4,5",
+    "deck_agility": "2,3,3,4,5",
+    "deck_magic": null,
+    "deck_special": "Luck,Surveil,Surveil",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Stella",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Solemn Prayer",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Clairvoyance",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0057",
+    "servant_name": "Nikola Tesla",
+    "slug": "nikola-tesla",
+    "class": "Archer",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,2",
+    "deck_agility": "2,2,3,3",
+    "deck_magic": "5,5,5,5",
+    "deck_special": "Luck,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "System Keraunos",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "System Keraunos (Overload)",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Transhumanism",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0058",
+    "servant_name": "Billy the Kid",
+    "slug": "billy-the-kid",
+    "class": "Archer",
+    "playstyle": "Bulwark",
+    "description": null,
+    "deck_strength": "2,2,3",
+    "deck_agility": "2,3,3,4,4,5",
+    "deck_magic": null,
+    "deck_special": "Luck,Surveil,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Thunderer (Attack)",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Thunderer (Passive)",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Quick Draw",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0059",
+    "servant_name": "Napoleon Bonaparte",
+    "slug": "napoleon-bonaparte",
+    "class": "Archer",
+    "playstyle": "Scammer",
+    "description": null,
+    "deck_strength": "2,2,3,4,5,5",
+    "deck_agility": "2,3,5",
+    "deck_magic": null,
+    "deck_special": "Luck,Surveil,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Archer Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Arc de Triomphe",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Hidden Trump Card",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0060",
+    "servant_name": "Chloe von Einzbern",
+    "slug": "chloe-von-einzbern",
+    "class": "Archer",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,2,3",
+    "deck_agility": "2,2,3,5",
+    "deck_magic": "3,3",
+    "deck_special": "Luck,Surveil,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Kanshou & Bakuya (Chloe)",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Projection Magic",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Unlimited Blade Works (Chloe)",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0061",
+    "servant_name": "Tristan",
+    "slug": "tristan",
+    "class": "Archer",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,2,3",
+    "deck_agility": "2,3,3,4,4,5",
+    "deck_magic": "2",
+    "deck_special": "Surveil,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Archer Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Failnaught",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Soothing Serenade",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0062",
+    "servant_name": "Aśvatthāma",
+    "slug": "asvatthama",
+    "class": "Archer",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,4,4",
+    "deck_agility": "2,2,4,5",
+    "deck_magic": "3,4,5",
+    "deck_special": "Luck,Surveil",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Sudarshan Chakra",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Mahakala Shakti",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Avatar of Rage",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0063",
+    "servant_name": "Emiya Shirou",
+    "slug": "emiya-shirou-alter",
+    "class": "Archer",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,3",
+    "deck_agility": "2,3,3,4",
+    "deck_magic": "2,3,4",
+    "deck_special": "Surveil,Surveil,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Archer Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Kanshou & Bakuya (Alter)",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Unlimited Lost Works",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0064",
+    "servant_name": "Baobhan Sith",
+    "slug": "baobhan-sith",
+    "class": "Archer",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "3,3",
+    "deck_agility": "2,3,4,4",
+    "deck_magic": "2,5,5",
+    "deck_special": "Surveil,Preparation,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Archer Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Fetch Failnaught",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Part Collector",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0065",
+    "servant_name": "Tomoe Gozen",
+    "slug": "tomoe-gozen",
+    "class": "Archer",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "3,4,5,5",
+    "deck_agility": "2,2,3,3,4",
+    "deck_magic": null,
+    "deck_special": "Luck,Surveil,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Archer Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "On Arorikya Sowaka",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Oni Raiders",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0066",
+    "servant_name": "Orion",
+    "slug": "orion",
+    "class": "Archer",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "5,5,5",
+    "deck_agility": "2,3,4,4",
+    "deck_magic": null,
+    "deck_special": "Luck,Luck,Surveil,Surveil,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Aegis Eclipse",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Divine Embrace",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Moontouched Hunter",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0067",
+    "servant_name": "James Moriarty",
+    "slug": "james-moriarty",
+    "class": "Archer",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,3",
+    "deck_agility": "2,3,4,4",
+    "deck_magic": "3,3,4",
+    "deck_special": "Surveil,Preparation,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Dynamics of an Asteroid",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Wicked Charisma",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "In the Spider's Web",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0068",
+    "servant_name": "Sei Shounagon",
+    "slug": "sei-shounagon",
+    "class": "Archer",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,2",
+    "deck_agility": "2,3,3,5",
+    "deck_magic": "3,4,4",
+    "deck_special": "Luck,Surveil,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Emotional Engine",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Vivid Sensation",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Nostalgia Drive",
         "skill_description": null
       }
     ],
@@ -966,6 +2490,776 @@
         "skill_order": 3,
         "is_shared": false,
         "skill_name": "Petrification",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0071",
+    "servant_name": "Iskander of Macedonia",
+    "slug": "iskander-of-macedonia",
+    "class": "Rider",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,2,3,3,4,5",
+    "deck_agility": "2,3,4",
+    "deck_magic": "3",
+    "deck_special": "Surveil,Luck",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Rider Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Ionian Hetairoi",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Gordius Wheel",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0072",
+    "servant_name": "Astolfo",
+    "slug": null,
+    "class": "Rider",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,3",
+    "deck_agility": "2,3,4,4,5",
+    "deck_magic": "2,3,3",
+    "deck_special": "Luck,Surveil",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Casseur de Logistille",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "La Lune Noire",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Trap of Argalia",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0073",
+    "servant_name": "Achilles",
+    "slug": null,
+    "class": "Rider",
+    "playstyle": "Bulwark",
+    "description": null,
+    "deck_strength": "2,3,4,5",
+    "deck_agility": "2,3,4,4,5",
+    "deck_magic": null,
+    "deck_special": "Luck,Surveil,Surveil",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Diatrekhon Aster Lonkhe",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Akhilleus Kosmos",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Andreias Amarantos",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0074",
+    "servant_name": "Ivan the Terrible",
+    "slug": null,
+    "class": "Rider",
+    "playstyle": "Bulwark",
+    "description": null,
+    "deck_strength": "3,3,3,4,5,5",
+    "deck_agility": null,
+    "deck_magic": "3,3,3,5",
+    "deck_special": "Luck,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Rider Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Oprichniki",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Monstrous Form",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0075",
+    "servant_name": "Francis Drake",
+    "slug": null,
+    "class": "Rider",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,3,3",
+    "deck_agility": "2,3,3,4,5",
+    "deck_magic": null,
+    "deck_special": "Luck,Surveil,Surveil,Surveil",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Rider Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "The Golden Hind",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Privateer's Glory",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0076",
+    "servant_name": "Ushiwakamaru",
+    "slug": null,
+    "class": "Rider",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,3",
+    "deck_agility": "2,2,3,3,4,5",
+    "deck_magic": null,
+    "deck_special": "Surveil,Surveil,Preparation,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Rider Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Eight Boat Leap",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Icicle Cutter",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0077",
+    "servant_name": "Ozymandias",
+    "slug": null,
+    "class": "Rider",
+    "playstyle": "Bulwark",
+    "description": null,
+    "deck_strength": "2,3,4,5",
+    "deck_agility": "2,3",
+    "deck_magic": "2,4,5",
+    "deck_special": "Luck,Luck,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Abu el-Hol Sphinx",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Dendera Electric Bulb",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Ramesseum Tentyris",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0078",
+    "servant_name": "Sitonai",
+    "slug": null,
+    "class": "Alter Ego",
+    "playstyle": "Thrasher",
+    "description": null,
+    "deck_strength": "2,3,4",
+    "deck_agility": "3",
+    "deck_magic": "2,3,3,4",
+    "deck_special": "Luck,Surveil,Preparation,Berserker_Strength_9",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Alter Ego Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Pohjola Fimbul",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Combination Attack",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0079",
+    "servant_name": "Odysseus",
+    "slug": null,
+    "class": "Rider",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "3,3,3,4",
+    "deck_agility": "2,3",
+    "deck_magic": "3",
+    "deck_special": "Surveil,Surveil,Surveil,Luck,Luck",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Rider Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Aigis",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Troia Hippos",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0080",
+    "servant_name": "Queen Medb",
+    "slug": null,
+    "class": "Rider",
+    "playstyle": "Scammer",
+    "description": null,
+    "deck_strength": "2,3,3",
+    "deck_agility": "2,3,3,5",
+    "deck_magic": "3,3",
+    "deck_special": "Luck,Surveil,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Rider Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Chariot My Love",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "My Red Mead",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0081",
+    "servant_name": "Bartholomew Roberts",
+    "slug": null,
+    "class": "Rider",
+    "playstyle": "Scammer",
+    "description": null,
+    "deck_strength": "2,3,3,3",
+    "deck_agility": "2,3,3,4,4",
+    "deck_magic": null,
+    "deck_special": "Luck,Surveil,Surveil",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Rider Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "The Royal Rover",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Pirate's Code",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0082",
+    "servant_name": "Boudica",
+    "slug": null,
+    "class": "Rider",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,2,3,5",
+    "deck_agility": "2,3,3,3,4",
+    "deck_magic": null,
+    "deck_special": "Luck,Luck,Surveil",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Rider Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Sword of Boudica",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Chariot of Boudica",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0083",
+    "servant_name": "Quetzalcoatl",
+    "slug": null,
+    "class": "Rider",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,5,5,5",
+    "deck_agility": "2,2,2,3,3",
+    "deck_magic": "4",
+    "deck_special": "Luck,Luck",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Piedra del Sol",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Quetzalcoatlus",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Blood Frenzy",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0084",
+    "servant_name": "Hephaistion",
+    "slug": null,
+    "class": "Pretender",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,3,3,4",
+    "deck_agility": "2,3",
+    "deck_magic": "3,3,5",
+    "deck_special": "Luck,Surveil,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Pretender Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": true,
+        "skill_name": "Rider Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Hecatic Wheel",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0085",
+    "servant_name": "Sakamoto Ryouma",
+    "slug": null,
+    "class": "Rider",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,3,3,5",
+    "deck_agility": "2,2,2,3,3,4",
+    "deck_magic": null,
+    "deck_special": "Luck,Surveil",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Like a Soaring Dragon",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Dragon of Restoration",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Blade of Restoration",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0086",
+    "servant_name": "Edward Teach",
+    "slug": null,
+    "class": "Rider",
+    "playstyle": "Thrasher",
+    "description": null,
+    "deck_strength": "2,2,3,3,5,5",
+    "deck_agility": "2,3,3,4",
+    "deck_magic": null,
+    "deck_special": "Luck,Surveil",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Rider Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Queen Anne's Revenge",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Deviant Tastes",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0087",
+    "servant_name": "Mandricardo",
+    "slug": null,
+    "class": "Rider",
+    "playstyle": "Thrasher",
+    "description": null,
+    "deck_strength": "2,3,3,3,5",
+    "deck_agility": "3,3,3,4",
+    "deck_magic": "2",
+    "deck_special": "Luck,Surveil",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Rider Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Serment de Durandal",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Wooden Sword",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0088",
+    "servant_name": "Saint Martha",
+    "slug": null,
+    "class": "Rider",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,2,3,4",
+    "deck_agility": "3,4",
+    "deck_magic": "3,3,5",
+    "deck_special": "Luck,Luck,Surveil",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Rider Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Tarasque",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Divine Obedience",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0089",
+    "servant_name": "Saint Georgios",
+    "slug": null,
+    "class": "Rider",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,2,3,4,4,5",
+    "deck_agility": "2,3,3",
+    "deck_magic": "2",
+    "deck_special": "Luck,Luck",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Ascalon",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Bayard",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Martyr's Soul",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0090",
+    "servant_name": "Captain Nemo",
+    "slug": null,
+    "class": "Rider",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2",
+    "deck_agility": "2,3,4",
+    "deck_magic": "3,5",
+    "deck_special": "Luck,Luck,Surveil,Surveil,Preparation,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "The Nautilus",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Memory Partition",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Triton's Favour",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0091",
+    "servant_name": "Taisui Xingjun",
+    "slug": null,
+    "class": "Alter Ego",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "3,3,5,5",
+    "deck_agility": "2,2",
+    "deck_magic": "3,4",
+    "deck_special": "Luck,Luck,Surveil,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Alter Ego Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Taisu Awaken",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "God of Calamity",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "altForm": null
+  },
+  {
+    "servant_id": "S0092",
+    "servant_name": "Constantine XI",
+    "slug": null,
+    "class": "Rider",
+    "playstyle": "Bulwark",
+    "description": null,
+    "deck_strength": "2,3,4,4",
+    "deck_agility": "3,3,4",
+    "deck_magic": "2,3",
+    "deck_special": "Luck,Preparation,Preparation",
+    "has_unique": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Rider Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Theodosios Constantinos",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Twilit Empire",
         "skill_description": null
       }
     ],
@@ -1232,7 +3526,7 @@
     "deck_strength": "2,4,5,5",
     "deck_agility": "2,3",
     "deck_magic": "3",
-    "deck_special": "Berserker Strength 7,Berserker Strength 9,Luck,Luck,Surveil",
+    "deck_special": "Berserker_Strength_7,Berserker_Strength_9,Luck,Luck,Surveil",
     "has_unique": false,
     "skills": [
       {
