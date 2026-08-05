@@ -9,7 +9,7 @@ fetch('data/servants.json')
 
 function renderGrid(servants) {
   const grid = document.getElementById('cardsGrid');
-  grid.innerHTML = '';   // clears it first, so re-filtering later won't duplicate cards
+  grid.innerHTML = '';
 
   servants.forEach((servant) => {
     const slot = document.createElement('div');
@@ -19,6 +19,37 @@ function renderGrid(servants) {
     img.classList.add('servant-card');
     img.src = `images/Servants/${servant.servant_id}/Archetype.webp`;
     img.alt = servant.servant_name;
+
+    // --- new: tilt + lift ---
+    img.addEventListener('mouseenter', () => {
+      img.classList.add('is-hovering');
+      img.style.transition = 'none';
+    });
+
+    img.addEventListener('mousemove', (event) => {
+      const rect = img.getBoundingClientRect();
+      const x = event.clientX - rect.left;
+      const y = event.clientY - rect.top;
+      const percentX = (x / rect.width - 0.5) * 2;
+      const percentY = (y / rect.height - 0.5) * 2;
+
+      const rotateY = percentX * 16;
+      const rotateX = percentY * -16;
+
+      img.style.transform = `
+        translateY(-20px)
+        rotateX(${rotateX}deg)
+        rotateY(${rotateY}deg)
+        scale(1.06)
+      `;
+    });
+
+    img.addEventListener('mouseleave', () => {
+      img.classList.remove('is-hovering');
+      img.style.transition = 'transform 0.5s ease, box-shadow 0.5s ease';
+      img.style.transform = 'translateY(0) rotateX(0deg) rotateY(0deg) scale(1)';
+    });
+    // --- end new ---
 
     img.addEventListener('click', () => {
       openServantModal(servant);
