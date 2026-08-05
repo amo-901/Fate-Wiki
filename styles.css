@@ -41,11 +41,11 @@ body {
   border: 1px solid rgba(255, 60, 60, 0.4);
   border-radius: 16px;
   padding: 30px;
-  margin-top: min(10vh, 100px);
   width: min(90vw, 1000px);
-  position: relative;
-  overflow-y: scroll;
+  max-height: 80vh;        /* <-- new: gives the box an actual limit */
+  overflow-y: auto;         /* <-- changed from "scroll" */
   overflow-x: hidden;
+  position: relative;
 }
 
 .modal-close {
@@ -80,12 +80,12 @@ body {
 
 .modal-skills {
   display: flex;
-  gap: 12px;
+  gap: 5%;
   justify-content:left
 }
 
 .modal-skills img {
-  width: min(40%, 280px);
+  width: 30%;
   height: min(40%, 400px);
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.2);
