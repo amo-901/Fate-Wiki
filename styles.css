@@ -4,15 +4,15 @@ body {
 
 .cards-grid {
     display: grid;
-    grid-template-columns: repeat(7, 150px); /* this is repeating auto 7 times, 1fr means 1 fraction of the row space */
+    grid-template-columns: repeat(7, min(12%, 170px)); /* this is repeating auto 7 times, 1fr means 1 fraction of the row space */
     justify-content: center;
     padding: 10px;
     gap: 25px; 
 }
 
 .servant-card {
-    width: 150px;
-    height: 210px;
+    width: 170px;
+    height: 240px;
     border: 1px solid rgb(85, 5, 5);
     border-radius: 10px;
 }
@@ -41,8 +41,11 @@ body {
   border: 1px solid rgba(255, 60, 60, 0.4);
   border-radius: 16px;
   padding: 30px;
+  margin-top: min(10vh, 100px);
   width: min(90vw, 1000px);
   position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .modal-close {
@@ -63,6 +66,18 @@ body {
   margin-bottom: 20px;
 }
 
+.modal-info {
+  display:flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.modal-text {
+  display: flex;
+  flex-direction: column;
+}
+
+
 .modal-skills {
   display: flex;
   gap: 12px;
@@ -71,7 +86,7 @@ body {
 
 .modal-skills img {
   width: min(40%, 280px);
-  height: min(40%, 370px);
+  height: min(40%, 400px);
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
