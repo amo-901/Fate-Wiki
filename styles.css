@@ -28,7 +28,7 @@ body {
 }
 
 .servant-card.is-hovering {
-  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 15px 5px rgb(254, 4, 4);
 }
 
 .modal-overlay {
