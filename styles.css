@@ -4,7 +4,7 @@ body {
 
 .cards-grid {
     display: grid;
-    grid-template-columns: repeat(7, min(12%, 170px)); /* this is repeating auto 7 times, 1fr means 1 fraction of the row space */
+    grid-template-columns: repeat(6, min(18%, 170px)); /* this is repeating auto 7 times, 1fr means 1 fraction of the row space */
     justify-content: center;
     padding: 10px;
     gap: 25px; 
