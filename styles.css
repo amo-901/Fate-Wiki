@@ -87,7 +87,13 @@ body {
 }
 
 .modal-headings {
-  
+  font-size: 20px;
+  color: gold;
+  -webkit-text-stroke: 1px rgb(141, 122, 15)
+}
+
+.hidden {
+  display: none;
 }
 
 .modal-text {

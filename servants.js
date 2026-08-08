@@ -92,7 +92,12 @@ function openServantModal(servant) {
     deckContainer.appendChild(img);
   });
 
+  const assetsHeading = document.getElementById('assets-heading');
+  const assetsContainer = document.getElementById('modalAssets');
+  assetsContainer.innerHTML = ''; 
+
   if (servant.has_assets) {
+    assetsHeading.classList.remove('hidden');
     const assetPaths = getAssetPaths(servant);
 
     assetPaths.forEach((path) => {
@@ -100,8 +105,10 @@ function openServantModal(servant) {
       img.classList.add('asset-card');
       img.src = path;
       img.loading = 'lazy';
-      deckContainer.appendChild(img);
-    })
+      assetContainer.appendChild(img);
+    });
+  } else {
+    assetsHeading.classList.add('hidden');
   }
 
   document.getElementById('modalOverlay').classList.add('is-open');
