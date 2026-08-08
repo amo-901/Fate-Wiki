@@ -86,6 +86,10 @@ body {
   gap: 12px;
 }
 
+.modal-headings {
+  
+}
+
 .modal-text {
   display: flex;
   flex-direction: column;

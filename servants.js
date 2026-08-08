@@ -92,15 +92,17 @@ function openServantModal(servant) {
     deckContainer.appendChild(img);
   });
 
-  const assetPaths = getAssetPaths(servant);
+  if (servant.has_assets) {
+    const assetPaths = getAssetPaths(servant);
 
-  assetPaths.forEach((path) => {
-    const img = document.createElement('img');
-    img.classList.add('asset-card');
-    img.src = path;
-    img.loading = 'lazy';
-    deckContainer.appendChild(img);
-  })
+    assetPaths.forEach((path) => {
+      const img = document.createElement('img');
+      img.classList.add('asset-card');
+      img.src = path;
+      img.loading = 'lazy';
+      deckContainer.appendChild(img);
+    })
+  }
 
   document.getElementById('modalOverlay').classList.add('is-open');
 }
