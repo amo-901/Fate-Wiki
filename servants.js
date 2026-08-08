@@ -67,6 +67,9 @@ function openServantModal(servant) {
   const skillsContainer = document.getElementById('modalSkills');
   skillsContainer.innerHTML = '';   // clear any previous servant's skills first
 
+  const deckContainer = document.getElementById('modalDeck');
+  deckContainer.innerHTML = '';
+
   servant.skills.forEach((skill) => {
     const img = document.createElement('img');
     img.src = getSkillImagePath(servant, skill);
@@ -74,10 +77,13 @@ function openServantModal(servant) {
     skillsContainer.appendChild(img);
   });
 
-  const deckContainer = document.getElementById('modalDeck');
-  deckContainer.innerHTML = ''; // clear the deck of a previous servants deck
-  const img = document.createElement()
+  const deckPaths = getDeckCardPaths(servant);   // step 1: get the finished list of 12 paths
 
+  deckPaths.forEach((path) => {                   // step 2: turn each path into a visible image
+    const img = document.createElement('img');
+    img.src = path;
+    deckContainer.appendChild(img);
+  });
 
   document.getElementById('modalOverlay').classList.add('is-open');
 }
@@ -91,8 +97,19 @@ function getSkillImagePath(servant, skill) {
   }
 }
 
-function getDeckCardPath(servant) {
-  
+function getDeckCardPaths(servant) {
+  const deckPaths = [];
+
+  if (servant.deck_strength) {
+    const strengthValues = servant.deck_strength.split(',');
+    strengthValues.forEach((power) => {
+      deckPaths.push(`images/Generic-Cards/Strength_${power}.webp`);
+    });
+  }
+
+  // agility and magic: same pattern as above, different property name and label
+
+  return deckPaths;
 }
 
 // closing the modal: either button click, or clicking the dark overlay outside it
