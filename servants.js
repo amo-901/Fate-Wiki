@@ -81,6 +81,7 @@ function openServantModal(servant) {
 
   deckPaths.forEach((path) => {                   // step 2: turn each path into a visible image
     const img = document.createElement('img');
+    img.classList.add('deck-card');
     img.src = path;
     deckContainer.appendChild(img);
   });
@@ -107,8 +108,34 @@ function getDeckCardPaths(servant) {
     });
   }
 
-  // agility and magic: same pattern as above, different property name and label
+  if (servant.deck_agility) {
+    const agilityValues = servant.deck_agility.split(',');
+    agilityValues.forEach((power) => {
+      deckPaths.push(`images/Generic-Cards/Agility_${power}.webp`);
+    })
+  }
 
+  if (servant.deck_agility) {
+    const magicValues = servant.deck_magic.split(',');
+    magicValues.forEach((power) => {
+      deckPaths.push(`images/Generic-Cards/Magic_${power}.webp`);
+    })
+  }
+
+  if (servant.deck_special) {
+    const specialValues = servant.deck_special.split(',');
+    specialValues.forEach((card) => {
+      deckPaths.push(`images/Generic-Cards/${card}.webp`);
+    })
+  }
+
+  if (servant.has_unique) {
+    servant.uniqueCards.forEach((card) => {
+      for (let i = 0; i < card.quantity; i++) {
+        deckPaths.push(`images/Servants/${servant.servant_id}/${card.card_slug}.webp`);
+      }
+    });
+  }
   return deckPaths;
 }
 

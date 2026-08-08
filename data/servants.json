@@ -6644,7 +6644,7 @@
     "deck_strength": "2,2,5",
     "deck_agility": "2,3",
     "deck_magic": "2,4,4",
-    "deck_special": "Luck,Preparation,Moon Cancer,Moon Cancer",
+    "deck_special": "Luck,Preparation,Moon_Cancer_Class,Moon_Cancer_Class",
     "has_unique": false,
     "has_assets": false,
     "skills": [
@@ -6680,7 +6680,7 @@
     "deck_strength": "2,3",
     "deck_agility": "3",
     "deck_magic": "4,4,5",
-    "deck_special": "Luck,Luck,Surveil,Surveil,Preparation,Moon Cancer",
+    "deck_special": "Luck,Luck,Surveil,Surveil,Preparation,Moon_Cancer_Class",
     "has_unique": false,
     "has_assets": false,
     "skills": [
@@ -6716,7 +6716,7 @@
     "deck_strength": null,
     "deck_agility": "2,2,3",
     "deck_magic": "2,3,3,4,5",
-    "deck_special": "Foreigner Class,Foreigner Class,Surveil,Surveil",
+    "deck_special": "Foreigner_Class,Foreigner_Class,Surveil,Surveil",
     "has_unique": false,
     "has_assets": false,
     "skills": [
@@ -6752,7 +6752,7 @@
     "deck_strength": "2,2",
     "deck_agility": "2,2,3",
     "deck_magic": "2,3,4,5",
-    "deck_special": "Preparation,Foreigner Class,Foreigner Class",
+    "deck_special": "Preparation,Foreigner_Class,Foreigner_Class",
     "has_unique": false,
     "has_assets": false,
     "skills": [

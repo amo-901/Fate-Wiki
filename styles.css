@@ -106,8 +106,13 @@ body {
 
 .deck-grid {
   display: grid;
-  grid-template-columns: repeat(4, min(15%, 100px));
+  grid-template-columns: repeat(6, min(15%, 180px));
   justify-content: center;
-  padding: 10px;
   gap: 25px; 
+}
+
+.deck-card {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 8px;
 }
