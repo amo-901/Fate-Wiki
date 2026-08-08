@@ -116,3 +116,16 @@ body {
   border: 1px solid black;
   border-radius: 8px;
 }
+
+.asset-grid {
+  display: grid;
+  grid-template-columns: repeat(6, min(15%, 180px));
+  justify-content: center;
+  gap: 25px; 
+}
+
+.asset-card {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 8px;
+}

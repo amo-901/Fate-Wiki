@@ -71,6 +71,9 @@ function openServantModal(servant) {
   const deckContainer = document.getElementById('modalDeck');
   deckContainer.innerHTML = '';
 
+  const assetContainer = document.getElementById('modalAssets');
+  assetContainer.innerHTML = '';
+
   servant.skills.forEach((skill) => {
     const img = document.createElement('img');
     img.src = getSkillImagePath(servant, skill);
@@ -88,6 +91,16 @@ function openServantModal(servant) {
     img.loading = 'lazy';
     deckContainer.appendChild(img);
   });
+
+  const assetPaths = getAssetPaths(servant);
+
+  assetPaths.forEach((path) => {
+    const img = document.createElement('img');
+    img.classList.add('asset-card');
+    img.src = path;
+    img.loading = 'lazy';
+    deckContainer.appendChild(img);
+  })
 
   document.getElementById('modalOverlay').classList.add('is-open');
 }
@@ -140,6 +153,20 @@ function getDeckCardPaths(servant) {
     });
   }
   return deckPaths;
+}
+
+function getAssetPaths(servant) {
+  const assetPaths = [];
+
+  if (servant.has_assets) {
+    servant.miscCards.forEach((card) => {
+      for (let i = 0; i < card.quantity; i++) {
+        assetPaths.push(`images/Servants/${servant.servant_id}/Assets/${card.card_slug}.webp`)
+      }
+    })
+  }
+
+  return assetPaths;
 }
 
 // closing the modal: either button click, or clicking the dark overlay outside it
