@@ -129,8 +129,8 @@ body {
 
 .asset-grid {
   display: grid;
-  grid-template-columns: repeat(6, min(15%, 180px));
-  justify-content: center;
+  grid-template-columns: repeat(5, min(17%, 200px));
+  justify-content: left;
   gap: 25px; 
 }
 
