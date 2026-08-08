@@ -74,6 +74,11 @@ function openServantModal(servant) {
     skillsContainer.appendChild(img);
   });
 
+  const deckContainer = document.getElementById('modalDeck');
+  deckContainer.innerHTML = ''; // clear the deck of a previous servants deck
+  const img = document.createElement()
+
+
   document.getElementById('modalOverlay').classList.add('is-open');
 }
 
@@ -84,6 +89,10 @@ function getSkillImagePath(servant, skill) {
   } else {
     return `images/Servants/${servant.servant_id}/Skill${skill.skill_order}.webp`;
   }
+}
+
+function getDeckCardPath(servant) {
+  
 }
 
 // closing the modal: either button click, or clicking the dark overlay outside it
