@@ -1,9 +1,6 @@
-# 🚀 Project Title
+# Fate / Domination Wiki
 
-A brief, punchy one-liner or tagline explaining exactly what problem this application solves.
-
-[![License: MIT](https://shields.io)](https://opensource.org)
-<!-- Add extra badges like build status here if available -->
+A database for easily accessible data to the characters in the tabletop game Fate / Domination.
 
 ## ✨ Features
 
