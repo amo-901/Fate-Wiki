@@ -115,7 +115,7 @@ function getDeckCardPaths(servant) {
     })
   }
 
-  if (servant.deck_agility) {
+  if (servant.deck_magic) {
     const magicValues = servant.deck_magic.split(',');
     magicValues.forEach((power) => {
       deckPaths.push(`images/Generic-Cards/Magic_${power}.webp`);
