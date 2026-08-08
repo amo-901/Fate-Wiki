@@ -19,6 +19,7 @@ function renderGrid(servants) {
     img.classList.add('servant-card');
     img.src = `images/Servants/${servant.servant_id}/Archetype.webp`;
     img.alt = servant.servant_name;
+    img.loading = 'lazy'; // for making it easier to load website
 
     // --- new: tilt + lift ---
     img.addEventListener('mouseenter', () => {
@@ -74,6 +75,7 @@ function openServantModal(servant) {
     const img = document.createElement('img');
     img.src = getSkillImagePath(servant, skill);
     img.alt = skill.skill_name;
+    img.loading = 'lazy';
     skillsContainer.appendChild(img);
   });
 
@@ -83,6 +85,7 @@ function openServantModal(servant) {
     const img = document.createElement('img');
     img.classList.add('deck-card');
     img.src = path;
+    img.loading = 'lazy';
     deckContainer.appendChild(img);
   });
 
