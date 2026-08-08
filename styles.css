@@ -84,6 +84,7 @@ body {
   display:flex;
   justify-content: space-between;
   gap: 12px;
+  padding: 0;
 }
 
 .modal-headings {
@@ -108,6 +109,12 @@ body {
   justify-content: space-between;
 }
 
+.modal-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .modal-skills {
   display: flex;
   gap: 5%;
@@ -123,8 +130,8 @@ body {
 
 .deck-grid {
   display: grid;
-  grid-template-columns: repeat(6, min(15%, 180px));
-  justify-content: center;
+  grid-template-columns: repeat(6, min(14%, 180px));
+  justify-content: left;
   gap: 25px; 
 }
 
