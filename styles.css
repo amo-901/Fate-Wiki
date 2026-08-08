@@ -99,6 +99,13 @@ body {
 .modal-text {
   display: flex;
   flex-direction: column;
+  margin: 15px;
+  margin-top: 0px;
+}
+
+.modal-servant-title {
+  display: flex;
+  justify-content: space-between;
 }
 
 .modal-skills {
