@@ -11,6 +11,7 @@
     "deck_magic": "2,3",
     "deck_special": "Surveil,Luck,Luck",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -32,7 +33,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0002",
@@ -46,6 +47,7 @@
     "deck_magic": "2,3",
     "deck_special": "Luck",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -67,7 +69,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0003",
@@ -81,6 +83,7 @@
     "deck_magic": null,
     "deck_special": "Luck,Luck,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -102,7 +105,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0004",
@@ -116,6 +119,7 @@
     "deck_magic": null,
     "deck_special": "Surveil,Luck",
     "has_unique": false,
+    "has_assets": true,
     "skills": [
       {
         "skill_order": 1,
@@ -137,7 +141,26 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": [
+      {
+        "card_name": "Destroyed Dockside",
+        "card_slug": "Destroyed-Dockside",
+        "category": "objective",
+        "quantity": 1
+      },
+      {
+        "card_name": "Destroyed City Center",
+        "card_slug": "Destroyed-City-Center",
+        "category": "objective",
+        "quantity": 1
+      },
+      {
+        "card_name": "Destroyed Temple",
+        "card_slug": "Destroyed-Temple",
+        "category": "objective",
+        "quantity": 1
+      }
+    ]
   },
   {
     "servant_id": "S0005",
@@ -151,6 +174,7 @@
     "deck_magic": "3",
     "deck_special": "Luck,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -172,7 +196,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0006",
@@ -186,6 +210,7 @@
     "deck_magic": "3",
     "deck_special": "Luck,Surveil,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -207,7 +232,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0007",
@@ -221,6 +246,7 @@
     "deck_magic": null,
     "deck_special": "Luck,Surveil",
     "has_unique": true,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -249,7 +275,7 @@
         "description": null
       }
     ],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0008",
@@ -263,6 +289,7 @@
     "deck_magic": null,
     "deck_special": "Luck,Surveil,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -284,7 +311,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0009",
@@ -298,6 +325,7 @@
     "deck_magic": "2",
     "deck_special": "Luck,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -319,7 +347,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0010",
@@ -333,6 +361,7 @@
     "deck_magic": "2,2,3",
     "deck_special": "Luck,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -354,7 +383,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0011",
@@ -368,6 +397,7 @@
     "deck_magic": "2",
     "deck_special": "Luck,Preparation,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -389,7 +419,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0012",
@@ -403,6 +433,7 @@
     "deck_magic": null,
     "deck_special": "Luck,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -424,7 +455,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0013",
@@ -438,6 +469,7 @@
     "deck_magic": "2,2,3",
     "deck_special": "Luck,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -459,7 +491,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0014",
@@ -473,6 +505,7 @@
     "deck_magic": "2,2,3",
     "deck_special": "Luck,Luck",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -494,7 +527,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0015",
@@ -508,6 +541,7 @@
     "deck_magic": "2,3,4",
     "deck_special": "Luck,Surveil,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -529,7 +563,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0016",
@@ -543,6 +577,7 @@
     "deck_magic": "2,2",
     "deck_special": "Luck,Surveil,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -564,7 +599,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0017",
@@ -578,6 +613,7 @@
     "deck_magic": "2",
     "deck_special": "Luck,Surveil,Surveil",
     "has_unique": true,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -606,7 +642,7 @@
         "description": null
       }
     ],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0018",
@@ -620,6 +656,7 @@
     "deck_magic": "2,3",
     "deck_special": "Luck,Surveil,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -641,7 +678,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0019",
@@ -655,6 +692,7 @@
     "deck_magic": null,
     "deck_special": "Luck,Surveil,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -676,7 +714,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0020",
@@ -690,6 +728,7 @@
     "deck_magic": "2,2",
     "deck_special": "Luck,Avenger Class",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -711,7 +750,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0021",
@@ -725,6 +764,7 @@
     "deck_magic": "2",
     "deck_special": "Surveil,Preparation,Preparation",
     "has_unique": true,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -753,7 +793,7 @@
         "description": null
       }
     ],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0022",
@@ -767,6 +807,7 @@
     "deck_magic": "2,2,2",
     "deck_special": "Luck,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -788,7 +829,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0023",
@@ -802,6 +843,7 @@
     "deck_magic": "2",
     "deck_special": "Surveil,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -823,7 +865,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0024",
@@ -837,6 +879,7 @@
     "deck_magic": "2,4,5",
     "deck_special": "Surveil,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -858,7 +901,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0025",
@@ -872,6 +915,7 @@
     "deck_magic": null,
     "deck_special": "Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -893,7 +937,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0026",
@@ -907,6 +951,7 @@
     "deck_magic": "4",
     "deck_special": "Luck,Surveil,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -928,7 +973,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0027",
@@ -942,6 +987,7 @@
     "deck_magic": null,
     "deck_special": "Luck,Surveil,Preparation,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -963,7 +1009,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0028",
@@ -977,6 +1023,7 @@
     "deck_magic": "2,3",
     "deck_special": "Luck,Luck",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -998,7 +1045,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0029",
@@ -1012,6 +1059,7 @@
     "deck_magic": "2,3,4,5",
     "deck_special": "Luck,Surveil,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -1033,7 +1081,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0030",
@@ -1047,6 +1095,7 @@
     "deck_magic": "2,3",
     "deck_special": "Luck,Luck",
     "has_unique": true,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -1087,7 +1136,7 @@
         "description": null
       }
     ],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0031",
@@ -1101,6 +1150,7 @@
     "deck_magic": "2,4,5",
     "deck_special": "Luck,Preparation,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -1122,7 +1172,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0032",
@@ -1136,6 +1186,7 @@
     "deck_magic": "2,3,4",
     "deck_special": "Luck,Surveil,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -1157,7 +1208,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0033",
@@ -1171,6 +1222,7 @@
     "deck_magic": "2,3,4",
     "deck_special": "Luck,Surveil,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -1192,7 +1244,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0034",
@@ -1206,6 +1258,7 @@
     "deck_magic": "3,4,5",
     "deck_special": "Luck,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -1227,7 +1280,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0035",
@@ -1241,6 +1294,7 @@
     "deck_magic": null,
     "deck_special": "Luck,Luck,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -1262,7 +1316,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0036",
@@ -1276,6 +1330,7 @@
     "deck_magic": null,
     "deck_special": "Luck,Preparation,Preparation,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -1297,7 +1352,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0037",
@@ -1311,6 +1366,7 @@
     "deck_magic": "2,3",
     "deck_special": "Luck,Luck,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -1332,7 +1388,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0038",
@@ -1346,6 +1402,7 @@
     "deck_magic": null,
     "deck_special": "Luck,Surveil,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -1367,7 +1424,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0039",
@@ -1381,6 +1438,7 @@
     "deck_magic": "3",
     "deck_special": "Luck,Preparation,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -1402,7 +1460,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0040",
@@ -1416,6 +1474,7 @@
     "deck_magic": null,
     "deck_special": "Luck,Surveil,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -1437,7 +1496,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0041",
@@ -1451,6 +1510,7 @@
     "deck_magic": "2",
     "deck_special": "Luck,Luck,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -1472,7 +1532,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0042",
@@ -1486,6 +1546,7 @@
     "deck_magic": "3,4,4",
     "deck_special": "Luck,Surveil,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -1507,7 +1568,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0043",
@@ -1521,6 +1582,7 @@
     "deck_magic": "2,2,2",
     "deck_special": "Luck,Luck",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -1542,7 +1604,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0044",
@@ -1556,6 +1618,7 @@
     "deck_magic": "2",
     "deck_special": "Luck,Luck,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -1577,7 +1640,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0045",
@@ -1591,6 +1654,7 @@
     "deck_magic": "2,3",
     "deck_special": "Luck,Surveil,Surveil",
     "has_unique": false,
+    "has_assets": true,
     "skills": [
       {
         "skill_order": 1,
@@ -1612,7 +1676,32 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": [
+      {
+        "card_name": "Albion's Remnant",
+        "card_slug": "Albions-Remnant",
+        "category": "form",
+        "quantity": 1
+      },
+      {
+        "card_name": "Red Calamity",
+        "card_slug": "Red-Calamity",
+        "category": "skill",
+        "quantity": 1
+      },
+      {
+        "card_name": "Innocence Arondight",
+        "card_slug": "Innocence-Arondight",
+        "category": "skill",
+        "quantity": 1
+      },
+      {
+        "card_name": "Hollow Heart",
+        "card_slug": "Hollow-Heart",
+        "category": "skill",
+        "quantity": 1
+      }
+    ]
   },
   {
     "servant_id": "S0046",
@@ -1626,6 +1715,7 @@
     "deck_magic": "4,4,4",
     "deck_special": "Luck,Luck,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -1647,7 +1737,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0047",
@@ -1661,6 +1751,7 @@
     "deck_magic": "2,3,4",
     "deck_special": "Surveil,Preparation,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -1682,7 +1773,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0048",
@@ -1696,6 +1787,7 @@
     "deck_magic": "2,3,4",
     "deck_special": "Preparation,Luck,Luck",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -1717,7 +1809,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0049",
@@ -1731,6 +1823,7 @@
     "deck_magic": null,
     "deck_special": "Preparation,Preparation,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -1752,7 +1845,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0050",
@@ -1766,6 +1859,7 @@
     "deck_magic": null,
     "deck_special": "Preparation,Preparation,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -1787,7 +1881,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0051",
@@ -1801,6 +1895,7 @@
     "deck_magic": "2",
     "deck_special": "Luck,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -1822,7 +1917,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0052",
@@ -1836,6 +1931,7 @@
     "deck_magic": "2,2,3",
     "deck_special": "Surveil,Preparation,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -1857,7 +1953,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0053",
@@ -1871,6 +1967,7 @@
     "deck_magic": "2,3",
     "deck_special": "Luck,Surveil,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -1892,7 +1989,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0054",
@@ -1906,6 +2003,7 @@
     "deck_magic": "2,4,4,5",
     "deck_special": "Surveil,Surveil,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -1927,7 +2025,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0055",
@@ -1941,6 +2039,7 @@
     "deck_magic": "2,3,4",
     "deck_special": "Luck,Surveil,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -1962,7 +2061,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0056",
@@ -1976,6 +2075,7 @@
     "deck_magic": null,
     "deck_special": "Luck,Surveil,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -1997,7 +2097,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0057",
@@ -2011,6 +2111,7 @@
     "deck_magic": "5,5,5,5",
     "deck_special": "Luck,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -2032,7 +2133,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0058",
@@ -2046,6 +2147,7 @@
     "deck_magic": null,
     "deck_special": "Luck,Surveil,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -2067,7 +2169,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0059",
@@ -2081,6 +2183,7 @@
     "deck_magic": null,
     "deck_special": "Luck,Surveil,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -2102,7 +2205,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0060",
@@ -2116,6 +2219,7 @@
     "deck_magic": "3,3",
     "deck_special": "Luck,Surveil,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -2137,7 +2241,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0061",
@@ -2151,6 +2255,7 @@
     "deck_magic": "2",
     "deck_special": "Surveil,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -2172,7 +2277,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0062",
@@ -2186,6 +2291,7 @@
     "deck_magic": "3,4,5",
     "deck_special": "Luck,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -2207,7 +2313,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0063",
@@ -2221,6 +2327,7 @@
     "deck_magic": "2,3,4",
     "deck_special": "Surveil,Surveil,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -2242,7 +2349,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0064",
@@ -2256,6 +2363,7 @@
     "deck_magic": "2,5,5",
     "deck_special": "Surveil,Preparation,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -2277,7 +2385,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0065",
@@ -2291,6 +2399,7 @@
     "deck_magic": null,
     "deck_special": "Luck,Surveil,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -2312,7 +2421,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0066",
@@ -2326,6 +2435,7 @@
     "deck_magic": null,
     "deck_special": "Luck,Luck,Surveil,Surveil,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -2347,7 +2457,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0067",
@@ -2361,6 +2471,7 @@
     "deck_magic": "3,3,4",
     "deck_special": "Surveil,Preparation,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -2382,7 +2493,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0068",
@@ -2396,6 +2507,7 @@
     "deck_magic": "3,4,4",
     "deck_special": "Luck,Surveil,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -2417,7 +2529,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0069",
@@ -2431,6 +2543,7 @@
     "deck_magic": "2,3,3",
     "deck_special": null,
     "has_unique": true,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -2459,7 +2572,7 @@
         "description": null
       }
     ],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0070",
@@ -2473,6 +2586,7 @@
     "deck_magic": "3,3",
     "deck_special": "Surveil,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -2494,7 +2608,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0071",
@@ -2508,6 +2622,7 @@
     "deck_magic": "3",
     "deck_special": "Surveil,Luck",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -2529,12 +2644,12 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0072",
     "servant_name": "Astolfo",
-    "slug": null,
+    "slug": "astolfo",
     "class": "Rider",
     "playstyle": "Skirmisher",
     "description": null,
@@ -2543,6 +2658,7 @@
     "deck_magic": "2,3,3",
     "deck_special": "Luck,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -2564,12 +2680,12 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0073",
     "servant_name": "Achilles",
-    "slug": null,
+    "slug": "achilles",
     "class": "Rider",
     "playstyle": "Bulwark",
     "description": null,
@@ -2578,6 +2694,7 @@
     "deck_magic": null,
     "deck_special": "Luck,Surveil,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -2599,12 +2716,12 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0074",
     "servant_name": "Ivan the Terrible",
-    "slug": null,
+    "slug": "ivan-the-terrible",
     "class": "Rider",
     "playstyle": "Bulwark",
     "description": null,
@@ -2613,6 +2730,7 @@
     "deck_magic": "3,3,3,5",
     "deck_special": "Luck,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -2634,12 +2752,12 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0075",
     "servant_name": "Francis Drake",
-    "slug": null,
+    "slug": "francis-drake",
     "class": "Rider",
     "playstyle": "Nuker",
     "description": null,
@@ -2648,6 +2766,7 @@
     "deck_magic": null,
     "deck_special": "Luck,Surveil,Surveil,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -2669,12 +2788,12 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0076",
     "servant_name": "Ushiwakamaru",
-    "slug": null,
+    "slug": "ushiwakamaru",
     "class": "Rider",
     "playstyle": "Skirmisher",
     "description": null,
@@ -2683,6 +2802,7 @@
     "deck_magic": null,
     "deck_special": "Surveil,Surveil,Preparation,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -2704,12 +2824,12 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0077",
     "servant_name": "Ozymandias",
-    "slug": null,
+    "slug": "ozymandias",
     "class": "Rider",
     "playstyle": "Bulwark",
     "description": null,
@@ -2718,6 +2838,7 @@
     "deck_magic": "2,4,5",
     "deck_special": "Luck,Luck,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -2739,12 +2860,12 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0078",
     "servant_name": "Sitonai",
-    "slug": null,
+    "slug": "sitonai",
     "class": "Alter Ego",
     "playstyle": "Thrasher",
     "description": null,
@@ -2753,6 +2874,7 @@
     "deck_magic": "2,3,3,4",
     "deck_special": "Luck,Surveil,Preparation,Berserker_Strength_9",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -2774,12 +2896,12 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0079",
     "servant_name": "Odysseus",
-    "slug": null,
+    "slug": "odysseus",
     "class": "Rider",
     "playstyle": "Nuker",
     "description": null,
@@ -2788,6 +2910,7 @@
     "deck_magic": "3",
     "deck_special": "Surveil,Surveil,Surveil,Luck,Luck",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -2809,12 +2932,12 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0080",
     "servant_name": "Queen Medb",
-    "slug": null,
+    "slug": "queen-medb",
     "class": "Rider",
     "playstyle": "Scammer",
     "description": null,
@@ -2823,6 +2946,7 @@
     "deck_magic": "3,3",
     "deck_special": "Luck,Surveil,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -2844,12 +2968,12 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0081",
     "servant_name": "Bartholomew Roberts",
-    "slug": null,
+    "slug": "bartholomew-roberts",
     "class": "Rider",
     "playstyle": "Scammer",
     "description": null,
@@ -2858,6 +2982,7 @@
     "deck_magic": null,
     "deck_special": "Luck,Surveil,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -2879,12 +3004,12 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0082",
     "servant_name": "Boudica",
-    "slug": null,
+    "slug": "boudica",
     "class": "Rider",
     "playstyle": "Skirmisher",
     "description": null,
@@ -2893,6 +3018,7 @@
     "deck_magic": null,
     "deck_special": "Luck,Luck,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -2914,12 +3040,12 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0083",
     "servant_name": "Quetzalcoatl",
-    "slug": null,
+    "slug": "quetzalcoatl",
     "class": "Rider",
     "playstyle": "Skirmisher",
     "description": null,
@@ -2928,6 +3054,7 @@
     "deck_magic": "4",
     "deck_special": "Luck,Luck",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -2949,12 +3076,12 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0084",
     "servant_name": "Hephaistion",
-    "slug": null,
+    "slug": "hephaistion",
     "class": "Pretender",
     "playstyle": "Nuker",
     "description": null,
@@ -2963,6 +3090,7 @@
     "deck_magic": "3,3,5",
     "deck_special": "Luck,Surveil,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -2984,12 +3112,12 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0085",
     "servant_name": "Sakamoto Ryouma",
-    "slug": null,
+    "slug": "sakamoto-ryouma",
     "class": "Rider",
     "playstyle": "Skirmisher",
     "description": null,
@@ -2998,6 +3126,7 @@
     "deck_magic": null,
     "deck_special": "Luck,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -3019,12 +3148,12 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0086",
     "servant_name": "Edward Teach",
-    "slug": null,
+    "slug": "edward-teach",
     "class": "Rider",
     "playstyle": "Thrasher",
     "description": null,
@@ -3033,6 +3162,7 @@
     "deck_magic": null,
     "deck_special": "Luck,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -3054,12 +3184,12 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0087",
     "servant_name": "Mandricardo",
-    "slug": null,
+    "slug": "mandricardo",
     "class": "Rider",
     "playstyle": "Thrasher",
     "description": null,
@@ -3068,6 +3198,7 @@
     "deck_magic": "2",
     "deck_special": "Luck,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -3089,12 +3220,12 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0088",
     "servant_name": "Saint Martha",
-    "slug": null,
+    "slug": "saint-martha",
     "class": "Rider",
     "playstyle": "Nuker",
     "description": null,
@@ -3103,6 +3234,7 @@
     "deck_magic": "3,3,5",
     "deck_special": "Luck,Luck,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -3124,12 +3256,12 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0089",
     "servant_name": "Saint Georgios",
-    "slug": null,
+    "slug": "saint-georgios",
     "class": "Rider",
     "playstyle": "Nuker",
     "description": null,
@@ -3138,6 +3270,7 @@
     "deck_magic": "2",
     "deck_special": "Luck,Luck",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -3159,12 +3292,12 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0090",
     "servant_name": "Captain Nemo",
-    "slug": null,
+    "slug": "captain-nemo",
     "class": "Rider",
     "playstyle": "Nuker",
     "description": null,
@@ -3173,6 +3306,7 @@
     "deck_magic": "3,5",
     "deck_special": "Luck,Luck,Surveil,Surveil,Preparation,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -3194,12 +3328,12 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0091",
     "servant_name": "Taisui Xingjun",
-    "slug": null,
+    "slug": "taisui-xingjun",
     "class": "Alter Ego",
     "playstyle": "Skirmisher",
     "description": null,
@@ -3208,6 +3342,7 @@
     "deck_magic": "3,4",
     "deck_special": "Luck,Luck,Surveil,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -3229,12 +3364,12 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0092",
     "servant_name": "Constantine XI",
-    "slug": null,
+    "slug": "constantine-xi",
     "class": "Rider",
     "playstyle": "Bulwark",
     "description": null,
@@ -3243,6 +3378,7 @@
     "deck_magic": "2,3",
     "deck_special": "Luck,Preparation,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -3264,7 +3400,7 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
   },
   {
     "servant_id": "S0093",
@@ -3278,6 +3414,7 @@
     "deck_magic": "2,3,3,4,4,5",
     "deck_special": "Surveil,Luck,Preparation",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -3299,7 +3436,115 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0094",
+    "servant_name": "Gilles de Rais",
+    "slug": "gilles-de-rais",
+    "class": "Caster",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": null,
+    "deck_agility": null,
+    "deck_magic": "2,2,2,3,3,3,4,4,5,5",
+    "deck_special": "Preparation,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Caster Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Prelati's Spellbook (Call the Ancients)",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Prelati's Spellbook (Mass Summoning)",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0095",
+    "servant_name": "Tamamo no Mae",
+    "slug": "tamamo-no-mae",
+    "class": "Caster",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,3",
+    "deck_agility": "2,3,4",
+    "deck_magic": "2,3,4,4,5",
+    "deck_special": "Luck,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Amaterasu's Blessing (Transcendence)",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Amaterasu's Blessing (Cascade)",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Witchcraft",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0096",
+    "servant_name": "Hans Christian Andersen",
+    "slug": "hans-christian-andersen",
+    "class": "Caster",
+    "playstyle": "Scammer",
+    "description": null,
+    "deck_strength": null,
+    "deck_agility": "2,2,3",
+    "deck_magic": "2,2,2,2,3,3",
+    "deck_special": "Preparation,Preparation,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Caster Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Märchen Meines Lebens",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Curses of the Readers",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
   },
   {
     "servant_id": "S0097",
@@ -3313,6 +3558,7 @@
     "deck_magic": "2,2,3,4",
     "deck_special": "Surveil,Preparation,Preparation",
     "has_unique": true,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -3347,7 +3593,194 @@
         "description": null
       }
     ],
-    "altForm": null
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0098",
+    "servant_name": "William Shakespeare",
+    "slug": "william-shakespeare",
+    "class": "Caster",
+    "playstyle": "Wildcard",
+    "description": null,
+    "deck_strength": "2,2,3",
+    "deck_agility": "2,2,3",
+    "deck_magic": "2,3,3,4",
+    "deck_special": "Preparation,Surveil",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Caster Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "First Folio",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Inspire Heroism",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0099",
+    "servant_name": "Leonardo Da Vinci",
+    "slug": "leonardo-da-vinci",
+    "class": "Caster",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,2,3",
+    "deck_agility": "2",
+    "deck_magic": "2,2,3,3,4,5",
+    "deck_special": "Luck,Preparation",
+    "has_unique": false,
+    "has_assets": true,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Uomo Universale",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Da Vinci's Workshop",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Natural Born Genius",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": [
+      {
+        "card_name": "Level Up",
+        "card_slug": "Level-Up",
+        "category": "shop",
+        "quantity": 10
+      },
+      {
+        "card_name": "Command: Focus",
+        "card_slug": "Command-Focus",
+        "category": "shop",
+        "quantity": 2
+      },
+      {
+        "card_name": "Command: Burst",
+        "card_slug": "Command-Burst",
+        "category": "shop",
+        "quantity": 2
+      },
+      {
+        "card_name": "Command: Cure",
+        "card_slug": "Command-Cure",
+        "category": "shop",
+        "quantity": 2
+      },
+      {
+        "card_name": "Command Seal",
+        "card_slug": "Command-Seal",
+        "category": "shop",
+        "quantity": 1
+      },
+      {
+        "card_name": "NP-Charger",
+        "card_slug": "NP-Charger",
+        "category": "shop",
+        "quantity": 2
+      },
+      {
+        "card_name": "Shadow Border",
+        "card_slug": "Shadow-Border",
+        "category": "shop",
+        "quantity": 1
+      },
+      {
+        "card_name": "Cute Souvenir",
+        "card_slug": "Cute-Souvenir",
+        "category": "shop",
+        "quantity": 1
+      },
+      {
+        "card_name": "Spirit-Origin-Dossiers",
+        "card_slug": "Spirit-Origin-Dossiers",
+        "category": "shop",
+        "quantity": 1
+      },
+      {
+        "card_name": "Beast of Calamity",
+        "card_slug": "Beast-Of-Calamity",
+        "category": "shop",
+        "quantity": 1
+      },
+      {
+        "card_name": "Golden Apple",
+        "card_slug": "Golden-Apple",
+        "category": "shop",
+        "quantity": 2
+      },
+      {
+        "card_name": "Smug Self Portrait",
+        "card_slug": "Smug-Self-Portrait",
+        "category": "shop",
+        "quantity": 1
+      },
+      {
+        "card_name": "Pocket Da Vinci",
+        "card_slug": "Pocket-Da-Vinci",
+        "category": "shop",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "servant_id": "S0100",
+    "servant_name": "Wolfgang Amadeus Mozart",
+    "slug": "wolfgang-amadeus-mozart",
+    "class": "Caster",
+    "playstyle": "Scammer",
+    "description": null,
+    "deck_strength": null,
+    "deck_agility": "2,3,3",
+    "deck_magic": "2,2,3,4,4,5",
+    "deck_special": "Luck,Luck,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Caster Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Requiem",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Eine Kleine Nachtmusik",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
   },
   {
     "servant_id": "S0101",
@@ -3361,6 +3794,7 @@
     "deck_magic": "2,2,3,3",
     "deck_special": "Luck",
     "has_unique": true,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -3425,7 +3859,223 @@
         "description": null
       }
     ],
-    "altForm": null
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0102",
+    "servant_name": "Ashiya Douman",
+    "slug": "ashiya-douman",
+    "class": "Alter Ego",
+    "playstyle": "Scammer",
+    "description": null,
+    "deck_strength": "2,3,3",
+    "deck_agility": null,
+    "deck_magic": "2,2,3,4,5,5",
+    "deck_special": "Surveil,Surveil,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Alter Ego Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Curse of Annihilation",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Ridicule Cat",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0103",
+    "servant_name": "Merlin",
+    "slug": "merlin",
+    "class": "Caster",
+    "playstyle": "Scammer",
+    "description": null,
+    "deck_strength": "2,2,3,4,5",
+    "deck_agility": null,
+    "deck_magic": "3,4,5,5",
+    "deck_special": "Luck,Surveil,Surveil",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Garden of Avalon",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Sea of Flowers",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Dreamlike Charisma",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0104",
+    "servant_name": "Thomas Edison",
+    "slug": "thomas-edison",
+    "class": "Caster",
+    "playstyle": "Scammer",
+    "description": null,
+    "deck_strength": "2,3,4,4,5",
+    "deck_agility": null,
+    "deck_magic": "2,2,3,4",
+    "deck_special": "Preparation,Preparation,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "World Faith Domination",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Galvanic Cell",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Fordism",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0105",
+    "servant_name": "Anastasia Romanova",
+    "slug": "anastasia-romanova",
+    "class": "Caster",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": null,
+    "deck_agility": "2,2,3",
+    "deck_magic": "3,3,4,4,4,5",
+    "deck_special": "Luck,Preparation,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Caster Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Viy, Viy, Viy",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Sumerki Kremlin",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0106",
+    "servant_name": "Maxwell's Demon",
+    "slug": "maxwells-demon",
+    "class": "Caster",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,3",
+    "deck_agility": "2,3,3",
+    "deck_magic": "3,4,4,5",
+    "deck_special": "Luck,Preparation,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Caster Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Maxwell's Demon (Noble Phantasm)",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "The Devil's Proof",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0107",
+    "servant_name": "King Gilgamesh",
+    "slug": "king-gilgamesh",
+    "class": "Caster",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,3,3",
+    "deck_agility": "2,3,3",
+    "deck_magic": "3,4,5",
+    "deck_special": "Luck,Preparation,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Caster Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Melammu Dingir",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Gate of Babylon (King Gilgamesh)",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
   },
   {
     "servant_id": "S0108",
@@ -3439,6 +4089,7 @@
     "deck_magic": "2,3,3,4,4,5",
     "deck_special": null,
     "has_unique": true,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -3479,7 +4130,439 @@
         "description": null
       }
     ],
-    "altForm": null
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0109",
+    "servant_name": "Mephistopheles",
+    "slug": "mephistopheles",
+    "class": "Caster",
+    "playstyle": "Scammer",
+    "description": null,
+    "deck_strength": "2,5",
+    "deck_agility": "3,3",
+    "deck_magic": "2,3,4,4,5",
+    "deck_special": "Surveil,Preparation,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Caster Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Ticktock Bomb",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Combustive Centipede",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0110",
+    "servant_name": "Scathach Skadi",
+    "slug": "scathach-skadi",
+    "class": "Caster",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": null,
+    "deck_agility": "2,3,3,5",
+    "deck_magic": "3,3,4,5,5",
+    "deck_special": "Luck,Luck,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Castle of Skye",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Allfather's Wisdom",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Primordial Runes",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0111",
+    "servant_name": "Xuangzang Sanzang",
+    "slug": "xuangzang-sanzang",
+    "class": "Caster",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "3,4",
+    "deck_agility": "2,2,3,3",
+    "deck_magic": "2,4,5",
+    "deck_special": "Luck,Luck,Luck",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Buddha Palm",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Teachings of Tripitaka",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Divine Inspiration",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0112",
+    "servant_name": "Nitocris",
+    "slug": "nitocris",
+    "class": "Caster",
+    "playstyle": "Thrasher",
+    "description": null,
+    "deck_strength": null,
+    "deck_agility": "2,2,3,3",
+    "deck_magic": "3,4,4,4,5,5",
+    "deck_special": "Preparation,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Nether Mirror",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Child of Horus",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Sacred Offering",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0113",
+    "servant_name": "Lady Avalon",
+    "slug": "lady-avalon",
+    "class": "Pretender",
+    "playstyle": "Scammer",
+    "description": null,
+    "deck_strength": null,
+    "deck_agility": "2,3,3",
+    "deck_magic": "2,3,4,4,5,5",
+    "deck_special": "Surveil,Surveil,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Pretender Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": true,
+        "skill_name": "Caster Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Hope of Avalon",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0114",
+    "servant_name": "Nursery Rhyme",
+    "slug": "nursery-rhyme",
+    "class": "Caster",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,2,3",
+    "deck_agility": "2,3",
+    "deck_magic": "2,3,4,5",
+    "deck_special": "Luck,Surveil,Surveil",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Queen's Glass Game",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Nameless Forest",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Jabberwock",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0115",
+    "servant_name": "Helena Blavatsky",
+    "slug": "helena-blavatsky",
+    "class": "Caster",
+    "playstyle": "Scammer",
+    "description": null,
+    "deck_strength": "2,2,3",
+    "deck_agility": "2,3",
+    "deck_magic": "3,4,4,5",
+    "deck_special": "Luck,Preparation,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Sanat Kumara",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Colonel Olcott",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Search for the Unknown",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0116",
+    "servant_name": "Sasaki Kojirou",
+    "slug": "sasaki-kojirou",
+    "class": "Assassin",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,3,4",
+    "deck_agility": "2,3,3,4,5,5",
+    "deck_magic": null,
+    "deck_special": "Surveil,Luck,Luck",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "First Strike",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Second Strike",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Third Strike",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0117",
+    "servant_name": "Hassan of the Cursed Arm",
+    "slug": "hassan-of-the-cursed-arm",
+    "class": "Assassin",
+    "playstyle": "Thrasher",
+    "description": null,
+    "deck_strength": "2,3,4",
+    "deck_agility": "3,4,5",
+    "deck_magic": "2,3,3",
+    "deck_special": "Surveil,Surveil,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Assassin Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Cursed Arm",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Metamorphosis",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0118",
+    "servant_name": "Hassan of the Hundred Faces",
+    "slug": "hassan-of-the-hundred-faces",
+    "class": "Assassin",
+    "playstyle": "Scammer",
+    "description": null,
+    "deck_strength": "2,3,4",
+    "deck_agility": "2,3,3,4,5",
+    "deck_magic": "2",
+    "deck_special": "Surveil,Surveil,Surveil",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Assassin Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Hundred Faces",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Hundred Faces (Noble Phantasm)",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0119",
+    "servant_name": "Hassan of Serenity",
+    "slug": "hassan-of-serenity",
+    "class": "Assassin",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,3",
+    "deck_agility": "3,4,4,5",
+    "deck_magic": "2,2,3",
+    "deck_special": "Luck,Surveil,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Assassin Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Poison Body",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Silent Dance",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0120",
+    "servant_name": "King Hassan ",
+    "slug": "king-hassan",
+    "class": "Assassin",
+    "playstyle": "Bulwark",
+    "description": null,
+    "deck_strength": "2,3,5",
+    "deck_agility": "2,3,3,4,5",
+    "deck_magic": "3",
+    "deck_special": "Luck,Luck,Luck",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Azrael (Cut From Fate)",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Final Bell Toll - Heavy",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Final Bell Toll - Light",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
   },
   {
     "servant_id": "S0121",
@@ -3493,6 +4576,7 @@
     "deck_magic": "2,3,4,4,5",
     "deck_special": "Preparation,Preparation,Luck",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -3514,7 +4598,926 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0122",
+    "servant_name": "Emiya",
+    "slug": "emiya-assassin",
+    "class": "Assassin",
+    "playstyle": "Scammer",
+    "description": null,
+    "deck_strength": "2,3",
+    "deck_agility": "2,3,3,4,4,5",
+    "deck_magic": "2",
+    "deck_special": "Surveil,Surveil,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Assassin Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Chronos Rose",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Phantasm Punishment",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0123",
+    "servant_name": "Jack the Ripper",
+    "slug": "jack-the-ripper",
+    "class": "Assassin",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,3",
+    "deck_agility": "2,3,3,4,4,5",
+    "deck_magic": "3",
+    "deck_special": "Preparation,Surveil,Surveil",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Maria the Ripper",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "The Mist",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Dissociation",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0124",
+    "servant_name": "Li Shuwen",
+    "slug": "li-shuwen",
+    "class": "Assassin",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,3,4,4,5",
+    "deck_agility": "2,4,4,5,5",
+    "deck_magic": null,
+    "deck_special": "Surveil,Surveil",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Lancer Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "No Second Strike",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Sphere Boundary",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0125",
+    "servant_name": "Shuten Douji",
+    "slug": "shuten-douji",
+    "class": "Assassin",
+    "playstyle": "Bulwark",
+    "description": null,
+    "deck_strength": "2,3,4,5",
+    "deck_agility": "2,3",
+    "deck_magic": "2,3,5",
+    "deck_special": "Luck,Luck,Surveil",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Bone Collector",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Noxious Sake",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Debaucherous Banquet",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0126",
+    "servant_name": "Dr. Henry Jekyll",
+    "slug": "dr-henry-jekyll",
+    "class": "Assassin",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,3,5",
+    "deck_agility": "2,4,4,5",
+    "deck_magic": null,
+    "deck_special": "Berserker_Strength_7,Berserker_Agility_7,Berserker_Agility_9,Surveil,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Assassin Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Dangerous Game (Noble Phantasm)",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Dangerous Game (Passive)",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0127",
+    "servant_name": "Charlotte Corday",
+    "slug": "charlotte-corday",
+    "class": "Assassin",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,2,3",
+    "deck_agility": "2,2,3,3,5",
+    "deck_magic": null,
+    "deck_special": "Luck,Luck,Surveil,Surveil",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Assassin Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Le Rêve Ensoleillé",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Haphazard Planning",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0128",
+    "servant_name": "Charles-Henri Sanson",
+    "slug": "charles-henri-sanson",
+    "class": "Assassin",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,3,3,5,5",
+    "deck_agility": "2,2,3,3",
+    "deck_magic": null,
+    "deck_special": "Luck,Luck,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "La Mort d'Espoir (Noble Phantasm)",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Kingslayer",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "La Mort d'Espoir (Passive)",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0129",
+    "servant_name": "Koyanskaya",
+    "slug": "koyanskaya",
+    "class": "Alter Ego",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2",
+    "deck_agility": "2,3,4",
+    "deck_magic": "2,5",
+    "deck_special": "Luck,Surveil,Preparation",
+    "has_unique": true,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Alter Ego Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Gospel of Slaughter",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "NFF Special Delivery",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [
+      {
+        "card_name": "NF-00 Cyanide Cake",
+        "card_slug": "NF00",
+        "quantity": 1,
+        "description": null
+      },
+      {
+        "card_name": "NF-14 Mobile Turret",
+        "card_slug": "NF14",
+        "quantity": 1,
+        "description": null
+      },
+      {
+        "card_name": "NF-56 Mini Miko",
+        "card_slug": "NF56",
+        "quantity": 1,
+        "description": null
+      }
+    ],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0130",
+    "servant_name": "Kama",
+    "slug": "kama",
+    "class": "Assassin",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,3",
+    "deck_agility": "2,3,5",
+    "deck_magic": "2,3,4,4,5",
+    "deck_special": "Luck,Luck",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Assassin Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Ananga",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Samsara Kama",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0131",
+    "servant_name": "Stheno",
+    "slug": "stheno",
+    "class": "Assassin",
+    "playstyle": "Thrasher",
+    "description": null,
+    "deck_strength": "2",
+    "deck_agility": "2,3",
+    "deck_magic": "3,3,4,4",
+    "deck_special": "Luck,Luck,Surveil,Preparation,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Assassin Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Smile of the Stheno",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Divine Excellence",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0132",
+    "servant_name": "Fuuma Kotarou",
+    "slug": "fuuma-kotarou",
+    "class": "Assassin",
+    "playstyle": "Scammer",
+    "description": null,
+    "deck_strength": "2,3,4",
+    "deck_agility": "2,3,4,5",
+    "deck_magic": "3,3",
+    "deck_special": "Surveil,Surveil,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Assassin Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Chaos Brigade",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Shinobi Sabotage",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0133",
+    "servant_name": "Katou Danzou",
+    "slug": "katou-danzou",
+    "class": "Assassin",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,2,2,5",
+    "deck_agility": "2,2,3,3,4",
+    "deck_magic": "3",
+    "deck_special": "Luck,Surveil",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Assassin Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Mechanical Illusion",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Synthetic Limbs",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0134",
+    "servant_name": "Okada Izou",
+    "slug": "okada-izou",
+    "class": "Assassin",
+    "playstyle": "Thrasher",
+    "description": null,
+    "deck_strength": "2,2,3,4",
+    "deck_agility": "2,3,3,4,4,5",
+    "deck_magic": null,
+    "deck_special": "Surveil,Surveil",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Assassin Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Shimatsuken",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Man Slayer",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0135",
+    "servant_name": "Mysterious Heroine X",
+    "slug": "mysterious-heroine-x",
+    "class": "Assassin",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,3,3,5,5",
+    "deck_agility": "3,4,4",
+    "deck_magic": "2",
+    "deck_special": "Luck,Luck,Surveil",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Saber Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Secret - Calibur",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Assassin In Denial",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0136",
+    "servant_name": "Osakabehime",
+    "slug": "osakabehime",
+    "class": "Assassin",
+    "playstyle": "Scammer",
+    "description": null,
+    "deck_strength": null,
+    "deck_agility": "3,4,4,4",
+    "deck_magic": "2,3",
+    "deck_special": "Surveil,Surveil,Surveil,Preparation,Preparation,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Hakuro Castle",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Chiyogami Bats",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Castle Apparition",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0137",
+    "servant_name": "Carmilla",
+    "slug": "carmilla",
+    "class": "Assassin",
+    "playstyle": "Thrasher",
+    "description": null,
+    "deck_strength": "2,3",
+    "deck_agility": "3,3,4,4,4",
+    "deck_magic": "3,4,5",
+    "deck_special": "Preparation,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Phantom Maiden",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Immoral Suggestion",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Fresh Blood",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0138",
+    "servant_name": "Tezcatlipoca",
+    "slug": "tezcatlipoca",
+    "class": "Assassin",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "3,3",
+    "deck_agility": "2,2,4,4",
+    "deck_magic": "5,5",
+    "deck_special": "Berserker_Strength_7,Luck,Luck,Surveil",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Tepeyollotl",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Guise of the Warrior",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "First Sun Xibalba",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0139",
+    "servant_name": "Heracles",
+    "slug": "heracles",
+    "class": "Berserker",
+    "playstyle": "Bulwark",
+    "description": null,
+    "deck_strength": "2,2,3,5,5",
+    "deck_agility": "2,4",
+    "deck_magic": null,
+    "deck_special": "Berserker_Strength_7,Berserker_Strength_9,Berserker_Agility_7,Luck,Luck",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "God Hand",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "God Hand",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "God Hand",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0140",
+    "servant_name": "Lancelot of the Lake",
+    "slug": "lancelot-of-the-lake",
+    "class": "Berserker",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,2,4",
+    "deck_agility": "2,3,5",
+    "deck_magic": null,
+    "deck_special": "Berserker_Strength_7,Berserker_Agility_7,Berserker_Agility_9,Luck,Luck,Luck",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "For Someone's Glory (Noble Phantasm)",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "For Someone's Glory (Passive)",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Eternal Arms Mastery",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0141",
+    "servant_name": "Arcueid Brunestud",
+    "slug": "arcueid-brunestud",
+    "class": "Berserker",
+    "playstyle": "Bulwark",
+    "description": null,
+    "deck_strength": "2",
+    "deck_agility": "2,4,5",
+    "deck_magic": "2,3",
+    "deck_special": "Berserker_Strength_7,Berserker_Agility_7,Berserker_Magic_9,Luck,Luck,Luck",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Crimson Moon",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Millenium Castle",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Marble Phantasm",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0142",
+    "servant_name": "Frakenstein's Monster",
+    "slug": "frankensteins-monster",
+    "class": "Berserker",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "4,4,5,5,5",
+    "deck_agility": null,
+    "deck_magic": "4,4,5,5,5",
+    "deck_special": "Luck,Surveil",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Bridal Chest (Galvanism)",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Bridal Chest (Power Conversion)",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Blasted Tree",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0143",
+    "servant_name": "Spartacus",
+    "slug": "spartacus",
+    "class": "Berserker",
+    "playstyle": "Bulwark",
+    "description": null,
+    "deck_strength": "2,3,5,5,5",
+    "deck_agility": "2,2,3",
+    "deck_magic": null,
+    "deck_special": "Berserker_Strength_7,Berserker_Strength_7,Berserker_Strength_9,Luck",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Revolt",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Crying Warmonger",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Free Spirit",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0144",
+    "servant_name": "Kiyohime",
+    "slug": "kiyohime",
+    "class": "Berserker",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,2,3",
+    "deck_agility": null,
+    "deck_magic": "2,3,5",
+    "deck_special": "Berserker_Magic_7,Berserker_Magic_7,Berserker_Magic_9,Luck,Surveil,Surveil",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "No More Lies",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Flame Colored Kiss",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Samadhi",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0145",
+    "servant_name": "Penthesilea",
+    "slug": "penthesilea",
+    "class": "Berserker",
+    "playstyle": "Thrasher",
+    "description": null,
+    "deck_strength": "2,2,2,3",
+    "deck_agility": "2",
+    "deck_magic": null,
+    "deck_special": "Berserker_Strength_7,Berserker_Strength_7,Berserker_Strength_9,Berserker_Agility_7,Berserker_Agility_9,Luck,Surveil",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Roar of the War God",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Divine Beauty",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Eviscerate",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0146",
+    "servant_name": "Sakata Kintoki",
+    "slug": "sakata-kintoki",
+    "class": "Berserker",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,3,5,5,5,5",
+    "deck_agility": "2,2,4,5",
+    "deck_magic": null,
+    "deck_special": "Luck,Luck",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Golden Spark",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Golden Spark",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Golden Eater",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
   },
   {
     "servant_id": "S0147",
@@ -3528,6 +5531,7 @@
     "deck_magic": "3",
     "deck_special": "Berserker_Strength_7,Berserker_Strength_9,Luck,Luck,Surveil",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -3549,7 +5553,691 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0148",
+    "servant_name": "Minamoto no Raikou",
+    "slug": "minamoto-no-raikou",
+    "class": "Berserker",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,5",
+    "deck_agility": "2,4",
+    "deck_magic": "2,3,5",
+    "deck_special": "Berserker_Strength_7,Berserker_Strength_9,Berserker_Agility_7,Luck,Surveil",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Ox-King Storm Call",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Cleansing Wave",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Oni Slayer",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0149",
+    "servant_name": "Darius III",
+    "slug": "darius-iii",
+    "class": "Berserker",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "3,4,4,5",
+    "deck_agility": "2",
+    "deck_magic": "2,4",
+    "deck_special": "Berserker_Strength_7,Berserker_Strength_7,Berserker_Agility_7,Luck,Luck",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Athanaton 10.000",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Gate of Babylon (Darius)",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Battle Continuation",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0150",
+    "servant_name": "Lü Bu Fengxian",
+    "slug": "lu-bu-fengxian",
+    "class": "Berserker",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,3,4,4",
+    "deck_agility": "2,2,3",
+    "deck_magic": null,
+    "deck_special": "Berserker_Strength_7,Berserker_Strength_7,Berserker_Strength_9,Berserker_Agility_7,Luck",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Restless Soul",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Defiance",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "God Force",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0151",
+    "servant_name": "Xiang Yu",
+    "slug": "xiang-yu",
+    "class": "Berserker",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,3,4,5",
+    "deck_agility": "2,3",
+    "deck_magic": null,
+    "deck_special": "Berserker_Strength_7,Berserker_Strength_7,Berserker_Agility_7,Berserker_Agility_7,Luck,Surveil",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Conquering Might",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Ultimate Defense Matrix",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Martial Force",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0152",
+    "servant_name": "God Arjuna",
+    "slug": "god-arjuna",
+    "class": "Berserker",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,4,5,5",
+    "deck_agility": "2,5",
+    "deck_magic": "4,5,5",
+    "deck_special": "Luck,Luck,Luck",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Mahapralaya (Imperfection is Sin)",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Mahapralaya (World Reset)",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Divine Supremacy",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0153",
+    "servant_name": "Florence Nightingale",
+    "slug": "florence-nightingale",
+    "class": "Berserker",
+    "playstyle": "Bulwark",
+    "description": null,
+    "deck_strength": "2,2,3,3,5",
+    "deck_agility": "2,3",
+    "deck_magic": null,
+    "deck_special": "Berserker_Strength_7,Berserker_Strength_9,Berserker_Agility_7,Luck,Surveil",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Nightingale Pledge",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Iron Nurse",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Angel of Crimea",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0154",
+    "servant_name": "Cú Chulainn (Alter)",
+    "slug": "cu-chulainn-alter",
+    "class": "Berserker",
+    "playstyle": "Bulwark",
+    "description": null,
+    "deck_strength": "2,3,5",
+    "deck_agility": "2,4,5",
+    "deck_magic": "2,4,5",
+    "deck_special": "Berserker_Strength_7,Berserker_Agility_7,Berserker_Agility_9",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Gae Bolg (Alter)",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Curruid Coinchenn (Permanent)",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Curruid Coinchenn (Passive)",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0155",
+    "servant_name": "Kingprotea",
+    "slug": "kingprotea",
+    "class": "Alter Ego",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,3,3,3,5",
+    "deck_agility": "2,2,3,3",
+    "deck_magic": null,
+    "deck_special": "Berserker_Strength_9,Luck,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Limit Break",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Hibernation",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Infinite Growth",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0156",
+    "servant_name": "Kijyo Koyo",
+    "slug": "kijyo-koyo",
+    "class": "Berserker",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,2,3,3,4",
+    "deck_agility": "3",
+    "deck_magic": "3,4,4,5",
+    "deck_special": "Luck,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Momijigari",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Demon Form",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Fire Breathing",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0157",
+    "servant_name": "Kriemhild",
+    "slug": "kriemhild",
+    "class": "Berserker",
+    "playstyle": "Bulwark",
+    "description": null,
+    "deck_strength": "3,3,4,4,4",
+    "deck_agility": "2,3",
+    "deck_magic": "3,4,4",
+    "deck_special": "Preparation,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Das Rhiengold",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Black Wedding",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Corrupted Balmung",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0158",
+    "servant_name": "Hijikata Toshizou",
+    "slug": "hijikata-toshizou",
+    "class": "Berserker",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,3,5,5,5",
+    "deck_agility": "2,2,3,5",
+    "deck_magic": null,
+    "deck_special": "Luck,Luck,Surveil",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Coat of Oaths ",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Flag of Sincerity",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Shinsengumi Law",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0159",
+    "servant_name": "Ibaraki Douji",
+    "slug": "ibaraki-douji",
+    "class": "Berserker",
+    "playstyle": "Bulwark",
+    "description": null,
+    "deck_strength": "5,5,5",
+    "deck_agility": "2,2",
+    "deck_magic": "2,3",
+    "deck_special": "Berserker_Strength_7,Berserker_Strength_9,Berserker_Magic_7,Luck,Surveil",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Grudge of Rashoumon",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Boiling Blood",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Flame of Mount Ooe",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0160",
+    "servant_name": "Caligula",
+    "slug": "caligula",
+    "class": "Berserker",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,4,5,5",
+    "deck_agility": "2,3,4",
+    "deck_magic": null,
+    "deck_special": "Berserker_Strength_9,Berserker_Agility_7,Luck,Preparation,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Flucticulus Diana",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Mad Tyrant",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Gentle Moonlight",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0161",
+    "servant_name": "Asterios",
+    "slug": "asterios",
+    "class": "Berserker",
+    "playstyle": "Scammer",
+    "description": null,
+    "deck_strength": "2,3,5",
+    "deck_agility": "2,2,3",
+    "deck_magic": null,
+    "deck_special": "Berserker_Strength_7,Berserker_Strength_9,Berserker_Strength_9,Berserker_Agility_7,Luck,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Chaos Labyrinthos",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Natural Demon",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Innocent Monster",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0162",
+    "servant_name": "Angra Mainyu",
+    "slug": "angra-mainyu",
+    "class": "Avenger",
+    "playstyle": "Scammer",
+    "description": null,
+    "deck_strength": "2,2,3",
+    "deck_agility": "2,2,3,4",
+    "deck_magic": "2,3",
+    "deck_special": "Avenger Class,Avenger Class,Avenger Class",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Infinite Remains",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Tawrich & Zarich",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Empathy",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0163",
+    "servant_name": "Edmond Dantès",
+    "slug": "edmond-dantes",
+    "class": "Avenger",
+    "playstyle": "Bulwark",
+    "description": null,
+    "deck_strength": "2",
+    "deck_agility": "3,4,5",
+    "deck_magic": "3,4",
+    "deck_special": "Avenger Class,Avenger Class,Avenger Class,Luck,Luck,Luck",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Enfer Château d'If",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Attendre, Espérer",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "King of the Cavern",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0164",
+    "servant_name": "Antonio Salieri",
+    "slug": "antonio-salieri",
+    "class": "Avenger",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,2",
+    "deck_agility": "2,2,3,5",
+    "deck_magic": null,
+    "deck_special": "Avenger Class,Avenger Class,Avenger Class,Avenger Class,Preparation,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Misericordia",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Wildfire",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Oblivion Correction",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0165",
+    "servant_name": "Jeanne d'Arc (Alter)",
+    "slug": "jeanne-darc-alter",
+    "class": "Avenger",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "3,4,5,5",
+    "deck_agility": "2,3",
+    "deck_magic": "3,4,4",
+    "deck_special": "Avenger Class,Avenger Class,Avenger Class",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Grondement de Haine",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Dragon Witch",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Oblivion Correction",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0166",
+    "servant_name": "Hessian Lobo",
+    "slug": "hessian-lobo",
+    "class": "Avenger",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "5,5",
+    "deck_agility": "2,3,3,4,4,4",
+    "deck_magic": "2",
+    "deck_special": "Surveil,Avenger Class,Avenger Class",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Frostes Henker",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Ghastly Howl",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Oblivion Correction",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
   },
   {
     "servant_id": "S0167",
@@ -3563,6 +6251,7 @@
     "deck_magic": null,
     "deck_special": "Luck,Surveil,Preparation,Avenger Class",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -3584,7 +6273,402 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0168",
+    "servant_name": "Gorgon",
+    "slug": "gorgon",
+    "class": "Avenger",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "3,4,5,5",
+    "deck_agility": "2,3",
+    "deck_magic": "2,4,4",
+    "deck_special": "Avenger Class,Avenger Class,Avenger Class",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Pandemonium Cetus",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Demonic Mutation",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Oblivion Correction",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0169",
+    "servant_name": "Jeanne d'Arc",
+    "slug": "jeanne-darc",
+    "class": "Ruler",
+    "playstyle": "Bulwark",
+    "description": null,
+    "deck_strength": "2,3,4",
+    "deck_agility": "2,3",
+    "deck_magic": "3",
+    "deck_special": "Luck,Luck,Luck,Luck,Surveil,Surveil",
+    "has_unique": false,
+    "has_assets": true,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Ruler Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "La Pucelle",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Luminosité Eternelle",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": [
+      {
+        "card_name": "Ruler Seal",
+        "card_slug": "Ruler-Seal",
+        "category": "resource",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "servant_id": "S0170",
+    "servant_name": "Amakusa Shirou Tokisada",
+    "slug": "amakusa-shirou-tokisada",
+    "class": "Ruler",
+    "playstyle": "Bulwark",
+    "description": null,
+    "deck_strength": "2,3",
+    "deck_agility": "2,3,4,5",
+    "deck_magic": "3,3,4",
+    "deck_special": "Luck,Luck,Preparation",
+    "has_unique": false,
+    "has_assets": true,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Ruler Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Big Crunch",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Thaumaturgy",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": [
+      {
+        "card_name": "Ruler Seal",
+        "card_slug": "Ruler-Seal",
+        "category": "resource",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "servant_id": "S0171",
+    "servant_name": "Sherlock Holmes",
+    "slug": "sherlock-holmes",
+    "class": "Ruler",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": null,
+    "deck_agility": "2,3,5",
+    "deck_magic": "2,3,4,5",
+    "deck_special": "Surveil,Preparation,Luck,Luck,Luck",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Elementary, My Dear",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "The Empty House",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Retroduction",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0172",
+    "servant_name": "Astraea",
+    "slug": "astraea",
+    "class": "Ruler",
+    "playstyle": "Bulwark",
+    "description": null,
+    "deck_strength": "3,4,5,5",
+    "deck_agility": "2,3",
+    "deck_magic": "2,3,5",
+    "deck_special": "Luck,Luck,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Custos Morum",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Et Iam Virgo Redit",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Edictum Astrorum",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0173",
+    "servant_name": "Oberon Vortigern",
+    "slug": "oberon-vortigern",
+    "class": "Pretender",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,3",
+    "deck_agility": "2,3,4",
+    "deck_magic": "3,4",
+    "deck_special": "Luck,Luck,Luck,Surveil,Preparation",
+    "has_unique": false,
+    "has_assets": true,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Pretender Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": true,
+        "skill_name": "Ruler Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Lie Like Vortigern",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": [
+      {
+        "card_name": "Ruler Seal",
+        "card_slug": "Ruler-Seal",
+        "category": "resource",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "servant_id": "S0174",
+    "servant_name": "Morgan le Fay",
+    "slug": "morgan-le-fay",
+    "class": "Ruler",
+    "playstyle": "Thrasher",
+    "description": null,
+    "deck_strength": "2,3",
+    "deck_agility": "3",
+    "deck_magic": "3,4,4,5,5",
+    "deck_special": "Luck,Luck,Preparation,Preparation",
+    "has_unique": false,
+    "has_assets": true,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Ruler Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Rhongomyniad",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Infinity Mirror",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": [
+      {
+        "card_name": "Ruler Seal",
+        "card_slug": "Ruler-Seal",
+        "category": "resource",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "servant_id": "S0175",
+    "servant_name": "Amor",
+    "slug": "amor",
+    "class": "Ruler",
+    "playstyle": "Thrasher",
+    "description": null,
+    "deck_strength": "2,3",
+    "deck_agility": "2,3,4,5",
+    "deck_magic": "3,3,4",
+    "deck_special": "Luck,Surveil,Surveil",
+    "has_unique": false,
+    "has_assets": true,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": true,
+        "skill_name": "Ruler Class",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Golden Arrow",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Calling Agape",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": [
+      {
+        "card_name": "Ruler Seal",
+        "card_slug": "Ruler-Seal",
+        "category": "resource",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "servant_id": "S0176",
+    "servant_name": "Himiko",
+    "slug": "himiko",
+    "class": "Ruler",
+    "playstyle": "Bulwark",
+    "description": null,
+    "deck_strength": "3,3,4,5",
+    "deck_agility": "2,3",
+    "deck_magic": "3,3,4",
+    "deck_special": "Luck,Luck,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Oracle of Light",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Kidou Arts",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Eternal Mirror",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0177",
+    "servant_name": "B.B.",
+    "slug": "bb",
+    "class": "Moon Cancer",
+    "playstyle": "Thrasher",
+    "description": null,
+    "deck_strength": "2,2,5",
+    "deck_agility": "2,3",
+    "deck_magic": "2,4,4",
+    "deck_special": "Luck,Preparation,Moon Cancer,Moon Cancer",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Cursed Cutting Crater",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "B.B. Slots",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Root Access",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
   },
   {
     "servant_id": "S0178",
@@ -3598,6 +6682,7 @@
     "deck_magic": "4,4,5",
     "deck_special": "Luck,Luck,Surveil,Surveil,Preparation,Moon Cancer",
     "has_unique": false,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -3619,7 +6704,187 @@
       }
     ],
     "uniqueCards": [],
-    "altForm": null
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0179",
+    "servant_name": "Abigail Williams",
+    "slug": "abigail-williams",
+    "class": "Foreigner",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": null,
+    "deck_agility": "2,2,3",
+    "deck_magic": "2,3,3,4,5",
+    "deck_special": "Foreigner Class,Foreigner Class,Surveil,Surveil",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Witching Hour",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Witch Trial",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Gate to Nowhere",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0180",
+    "servant_name": "Katsushika Hokusai & Oui",
+    "slug": "hokusai",
+    "class": "Foreigner",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,2",
+    "deck_agility": "2,2,3",
+    "deck_magic": "2,3,4,5",
+    "deck_special": "Preparation,Foreigner Class,Foreigner Class",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "The Great Wave",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Colors of the World",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Colors of Beyond",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0181",
+    "servant_name": "Voyager",
+    "slug": "voyager",
+    "class": "Foreigner",
+    "playstyle": "Scammer",
+    "description": null,
+    "deck_strength": null,
+    "deck_agility": "2,3,3,4,4,4",
+    "deck_magic": "3,3,4",
+    "deck_special": "Luck,Surveil,Surveil",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Pale Blue Dot",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Message of Peace",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Message of Hope",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0182",
+    "servant_name": "Clytie van Gogh",
+    "slug": "clytie-van-gogh",
+    "class": "Foreigner",
+    "playstyle": "Skirmisher",
+    "description": null,
+    "deck_strength": "2,2,2",
+    "deck_agility": "3,3,3",
+    "deck_magic": "4,4,4",
+    "deck_special": "Surveil,Preparation,Preparation",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "De Sterrennacht",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Sea of Monsters",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Composite Soul",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
+  },
+  {
+    "servant_id": "S0183",
+    "servant_name": "Mysterious Heroine XX",
+    "slug": "mysterious-heroine-xx",
+    "class": "Foreigner",
+    "playstyle": "Nuker",
+    "description": null,
+    "deck_strength": "2,3,4,5",
+    "deck_agility": "2,4,5",
+    "deck_magic": "2,3",
+    "deck_special": "Luck,Luck,Surveil",
+    "has_unique": false,
+    "has_assets": false,
+    "skills": [
+      {
+        "skill_order": 1,
+        "is_shared": false,
+        "skill_name": "Cosmo Reactor",
+        "skill_description": null
+      },
+      {
+        "skill_order": 2,
+        "is_shared": false,
+        "skill_name": "Holy Armor Avalon",
+        "skill_description": null
+      },
+      {
+        "skill_order": 3,
+        "is_shared": false,
+        "skill_name": "Rhongomyniad LR",
+        "skill_description": null
+      }
+    ],
+    "uniqueCards": [],
+    "miscCards": []
   },
   {
     "servant_id": "S0184",
@@ -3633,6 +6898,7 @@
     "deck_magic": null,
     "deck_special": "Surveil,Preparation",
     "has_unique": true,
+    "has_assets": false,
     "skills": [
       {
         "skill_order": 1,
@@ -3661,6 +6927,6 @@
         "description": null
       }
     ],
-    "altForm": null
+    "miscCards": []
   }
 ]
