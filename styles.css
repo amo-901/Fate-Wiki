@@ -55,7 +55,7 @@ body {
   border: 1px solid rgba(255, 60, 60, 0.4);
   border-radius: 16px;
   padding: 30px;
-  width: min(90vw, 1000px);
+  width: min(70vw, 2000px);
   max-height: 80vh;        /* <-- new: gives the box an actual limit */
   overflow-y: auto;         /* <-- changed from "scroll" */
   overflow-x: hidden;
@@ -113,12 +113,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: min(69vw, 1600px)
 }
 
 .modal-skills {
   display: flex;
   gap: 5%;
-  justify-content:left
+  justify-content:left;
 }
 
 .modal-skills img {
@@ -132,7 +133,7 @@ body {
   display: grid;
   grid-template-columns: repeat(6, min(14%, 180px));
   justify-content: left;
-  gap: 25px; 
+  gap: 3%
 }
 
 .deck-card {
@@ -145,7 +146,7 @@ body {
   display: grid;
   grid-template-columns: repeat(5, min(17%, 200px));
   justify-content: left;
-  gap: 25px; 
+  gap: 3%; 
 }
 
 .asset-card {
