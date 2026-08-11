@@ -55,7 +55,7 @@ body {
   border: 1px solid rgba(255, 60, 60, 0.4);
   border-radius: 16px;
   padding: 30px;
-  width: min(70vw, 2000px);
+  width: min(65vw, 2000px);
   max-height: 80vh;        /* <-- new: gives the box an actual limit */
   overflow-y: auto;         /* <-- changed from "scroll" */
   overflow-x: hidden;
@@ -113,7 +113,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: min(69vw, 1600px)
+  width: min(65vw, 1600px);
+  margin-bottom: 20px;
 }
 
 .modal-skills {
