@@ -7,6 +7,7 @@ fetch('data/servants.json')
     renderGrid(allServants);
   });
 
+
 function renderGrid(servants) {
   const grid = document.getElementById('cardsGrid');
   grid.innerHTML = '';
@@ -98,6 +99,7 @@ function openServantModal(servant) {
 
   if (servant.has_assets) {
     assetsHeading.classList.remove('hidden');
+    assetsContainer.classList.remove('hidden');
     const assetPaths = getAssetPaths(servant);
 
     assetPaths.forEach((path) => {
@@ -109,6 +111,7 @@ function openServantModal(servant) {
     });
   } else {
     assetsHeading.classList.add('hidden');
+    assetsContainer.classList.add('hidden');
   }
 
   document.getElementById('modalOverlay').classList.add('is-open');
