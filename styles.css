@@ -2,6 +2,17 @@ body {
     background-color: rgb(21, 21, 21);
 }
 
+.filter-board {
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  width: 75%;
+  margin: 25px;
+  background-color: rgb(126, 25, 96);
+  border: 3px solid rgb(82, 16, 62);
+  border-radius: 8px;
+}
+
 .cards-grid {
     display: grid;
     grid-template-columns: repeat(6, min(18%, 170px)); /* this is repeating auto 7 times, 1fr means 1 fraction of the row space */
