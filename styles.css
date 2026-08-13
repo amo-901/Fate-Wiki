@@ -117,7 +117,8 @@ body {
   justify-content: space-between;
   gap: 12px;
   padding: 0;
-  background-color: gold;
+  background-image: url(images/Modal-Backgrounds/Saber-Background.png);
+  background-size: 100% 100%;
   padding: 2%;
   border-radius: 15px;
 }
@@ -168,7 +169,7 @@ body {
   grid-template-columns: repeat(6, min(14%, 180px));
   justify-content: left;
   gap: 3%;
-  background-color: rgb(12, 12, 76);
+  background-color: rgba(30, 30, 185, 0.572);
   justify-content: center;
   padding: 1%;
   padding-bottom: 2%;
@@ -186,7 +187,7 @@ body {
   grid-template-columns: repeat(5, min(17%, 200px));
   justify-content: center;
   gap: 3%; 
-  background-color: rgb(63, 62, 62);
+  background-color: rgba(63, 62, 62, 0.900);
   padding: 2%;
   overflow-y: scroll;
   border-radius: 15px;

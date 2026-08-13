@@ -72,6 +72,11 @@ function openServantModal(servant) {
   const deckContainer = document.getElementById('modalDeck');
   deckContainer.innerHTML = '';
 
+  const servantName = document.getElementById('servant-name')
+  servantName.textContent = '';
+
+  servantName.textContent = servant.servant_name;
+
   const assetsHeading = document.getElementById('assets-heading');
   const assetContainer = document.getElementById('modalAssets');
   assetsHeading.classList.add('hidden')
