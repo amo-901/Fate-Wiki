@@ -62,6 +62,25 @@ body {
   position: relative;
 }
 
+.servant-modal::-webkit-scrollbar {
+  width: 10px;
+}
+
+.servant-modal::-webkit-scrollbar-track {
+  background: rgb(30, 5, 5);
+  border-radius: 8px;
+}
+
+.servant-modal::-webkit-scrollbar-thumb {
+  background: rgb(96, 13, 13);
+  border-radius: 8px;
+  border: 2px solid rgb(30, 5, 5);
+}
+
+.servant-modal::-webkit-scrollbar-thumb:hover {
+  background: rgb(220, 50, 50);
+}
+
 .modal-close {
   position: absolute;
   top: 2px;
@@ -89,16 +108,13 @@ body {
   padding: 0;
   background-color: gold;
   padding: 2%;
+  border-radius: 15px;
 }
 
 .modal-headings {
   font-size: 20px;
   color: gold;
   -webkit-text-stroke: 1px rgb(141, 122, 15)
-}
-
-.hidden {
-  display: none;
 }
 
 .modal-text {
@@ -145,6 +161,7 @@ body {
   justify-content: center;
   padding: 1%;
   padding-bottom: 2%;
+  border-radius: 15px;
 }
 
 .deck-card {
@@ -160,13 +177,35 @@ body {
   gap: 3%; 
   background-color: rgb(63, 62, 62);
   padding: 2%;
+  overflow-y: scroll;
+  border-radius: 15px;
+}
+
+.asset-grid::-webkit-scrollbar {
+  width: 10px;
+}
+
+.asset-grid::-webkit-scrollbar-track {
+  background: rgb(63, 62, 62);
+  border-radius: 8px;
+}
+
+.asset-grid::-webkit-scrollbar-thumb {
+  background: rgb(140, 140, 140);
+  border-radius: 8px;
+  border: 2px solid rgb(30, 5, 5);
+}
+
+.asset-grid::-webkit-scrollbar-thumb:hover {
+  background: rgb(246, 246, 246);
 }
 
 .asset-card {
-  width: 100%;
-  height: 290px;   /* pick whatever looks right for your column width */
+  width: 100%;   /* pick whatever looks right for your column width */
   border: 1px solid black;
   border-radius: 8px;
 }
 
-/* grid bottom: 810.15625 , last card bottom: 1056.796875, and here is the image. you can see the last two cards are leaving the confines of the grey  */
+.hidden {
+  display: none;
+}

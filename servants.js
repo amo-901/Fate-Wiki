@@ -72,7 +72,10 @@ function openServantModal(servant) {
   const deckContainer = document.getElementById('modalDeck');
   deckContainer.innerHTML = '';
 
+  const assetsHeading = document.getElementById('assets-heading');
   const assetContainer = document.getElementById('modalAssets');
+  assetsHeading.classList.add('hidden')
+  assetContainer.classList.add('hidden')
   assetContainer.innerHTML = '';
 
   servant.skills.forEach((skill) => {
@@ -93,13 +96,9 @@ function openServantModal(servant) {
     deckContainer.appendChild(img);
   });
 
-  const assetsHeading = document.getElementById('assets-heading');
-  const assetsContainer = document.getElementById('modalAssets');
-  assetsContainer.innerHTML = ''; 
-
   if (servant.has_assets) {
     assetsHeading.classList.remove('hidden');
-    assetsContainer.classList.remove('hidden');
+    assetContainer.classList.remove('hidden');
     const assetPaths = getAssetPaths(servant);
 
     assetPaths.forEach((path) => {
@@ -111,7 +110,7 @@ function openServantModal(servant) {
     });
   } else {
     assetsHeading.classList.add('hidden');
-    assetsContainer.classList.add('hidden');
+    assetContainer.classList.add('hidden');
   }
 
   document.getElementById('modalOverlay').classList.add('is-open');
