@@ -76,6 +76,7 @@ function openServantModal(servant) {
   servantName.textContent = '';
 
   servantName.textContent = servant.servant_name;
+  document.getElementById('servant-description').textContent = servant.description || 'No description available.';
 
   const assetsHeading = document.getElementById('assets-heading');
   const assetContainer = document.getElementById('modalAssets');

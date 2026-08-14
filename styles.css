@@ -114,10 +114,10 @@ body {
 
 .modal-info {
   display:flex;
-  justify-content: space-between;
   gap: 12px;
   padding: 0;
-  background-image: url(images/Modal-Backgrounds/Saber-Background.png);
+  background-image: linear-gradient(rgba(50, 8, 8, 0.3), rgba(50, 8, 8, 0.3)),
+    url('images/Modal-Backgrounds/Saber-Background.webp');
   background-size: 100% 100%;
   padding: 2%;
   border-radius: 15px;
