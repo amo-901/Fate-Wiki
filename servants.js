@@ -3,7 +3,10 @@ let allServants = [];   // keeps the fetched data around so the popup can use it
 fetch('data/servants.json')
   .then(response => response.json())
   .then(data => {
-    allServants = data;
+    allServants = data.servants;
+    buildCheckboxGroup('classFilterGroup', allClasses, 'class-checkbox');
+    buildCheckboxGroup('prosFilterGroup', data.traitsList.pros, 'pro-checkbox');
+    buildCheckboxGroup('consFilterGroup', data.traitsList.cons, 'con-checkbox');
     renderGrid(allServants);
   });
 
@@ -185,6 +188,77 @@ function getAssetPaths(servant) {
 
   return assetPaths;
 }
+
+const allClasses = [
+  "Saber", "Lancer", "Archer", "Rider", "Assassin", "Caster", "Berserker",
+  "Ruler", "Avenger", "Foreigner", "Alter Ego", "Pretender", "Shielder",
+  "Beast", "Moon Cancer"
+];
+
+function buildCheckboxGroup(containerId, values, checkboxClass) {
+  const group = document.getElementById(containerId);
+
+  values.forEach((value) => {
+    const label = document.createElement('label');
+    label.classList.add('filter-checkbox-label');
+
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.value = value;
+    checkbox.classList.add(checkboxClass);
+    checkbox.addEventListener('change', applyFilters);   // instant filtering
+
+    label.appendChild(checkbox);
+    label.appendChild(document.createTextNode(' ' + value));
+
+    group.appendChild(label);
+  });
+}
+
+function getCheckedValues(checkboxClass) {
+  const checked = document.querySelectorAll(`.${checkboxClass}:checked`);
+  return Array.from(checked).map((checkbox) => checkbox.value);
+}
+
+function applyFilters() {
+  const searchText = document.getElementById('sidebarSearch').value.toLowerCase();
+  const selectedClasses = getCheckedValues('class-checkbox');
+  const selectedPros = getCheckedValues('pro-checkbox');
+  const selectedCons = getCheckedValues('con-checkbox');
+
+  const filteredServants = allServants.filter((servant) => {
+    const matchesSearch = servant.servant_name.toLowerCase().includes(searchText);
+    const matchesClass = selectedClasses.length === 0 || selectedClasses.includes(servant.class);
+    const matchesPros = selectedPros.every((trait) => servant.traits.pros.includes(trait));
+    const matchesCons = selectedCons.every((trait) => servant.traits.cons.includes(trait));
+    return matchesSearch && matchesClass && matchesPros && matchesCons;
+  });
+
+  renderGrid(filteredServants);
+}
+
+let searchDebounceTimer;
+
+document.getElementById('sidebarSearch').addEventListener('input', () => {
+  clearTimeout(searchDebounceTimer);
+  searchDebounceTimer = setTimeout(applyFilters, 150);
+});
+
+document.getElementById('filterToggle').addEventListener('click', () => {
+  document.getElementById('filterSidebar').classList.add('is-open');
+});
+
+document.getElementById('sidebarClose').addEventListener('click', () => {
+  document.getElementById('filterSidebar').classList.remove('is-open');
+});
+
+document.getElementById('resetFilters').addEventListener('click', () => {
+  document.getElementById('sidebarSearch').value = '';
+  document.querySelectorAll('.filter-sidebar input[type="checkbox"]').forEach((checkbox) => {
+    checkbox.checked = false;
+  });
+  applyFilters();
+});
 
 // closing the modal: either button click, or clicking the dark overlay outside it
 document.getElementById('modalClose').addEventListener('click', closeServantModal);

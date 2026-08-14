@@ -15,7 +15,7 @@ body {
 
 .cards-grid {
     display: grid;
-    grid-template-columns: repeat(6, min(18%, 170px)); /* this is repeating auto 7 times, 1fr means 1 fraction of the row space */
+    grid-template-columns: repeat(5, min(20%, 170px)); /* this is repeating auto 7 times, 1fr means 1 fraction of the row space */
     justify-content: center;
     padding: 10px;
     gap: 25px; 
@@ -216,6 +216,109 @@ body {
   width: 100%;   /* pick whatever looks right for your column width */
   border: 1px solid black;
   border-radius: 8px;
+}
+
+.filter-toggle-btn {
+  background: rgb(96, 13, 13);
+  color: white;
+  border: 1px solid rgba(255, 60, 60, 0.5);
+  border-radius: 6px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.filter-sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: min(90vw, 400px);
+  height: 100vh;
+  background: rgb(30, 5, 5);
+  border-left: 1px solid rgba(255, 60, 60, 0.4);
+  padding: 30px 20px;
+  overflow-y: auto;
+  z-index: 200;
+
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+}
+
+.sidebar-search {
+  width: 80%;
+  padding: 10px 12px;
+  background: rgb(20, 5, 5);
+  border: 1px solid rgba(255, 60, 60, 0.4);
+  border-radius: 6px;
+  color: white;
+  font-size: 14px;
+}
+
+.sidebar-search::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+#classFilterGroup {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4px 10px;
+}
+
+#prosFilterGroup {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4px 10px;
+}
+
+#consFilterGroup {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4px 10px;
+}
+
+.filter-sidebar.is-open {
+  transform: translateX(0);
+}
+
+.sidebar-close {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  float: right;
+}
+
+.filter-group {
+  clear: both;
+  margin-top: 20px;
+}
+
+.filter-group h3 {
+  color: gold;
+  border-bottom: 1px solid rgba(255, 215, 0, 0.3);
+  padding-bottom: 6px;
+}
+
+.filter-checkbox-label {
+  display: block;
+  color: white;
+  padding: 4px 0;
+  cursor: pointer;
+  text-wrap: balance;
+}
+
+.reset-btn {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  padding: 10px;
+  background: rgb(96, 13, 13);
+  color: white;
+  border: 1px solid rgba(255, 60, 60, 0.5);
+  border-radius: 6px;
+  cursor: pointer;
+  flex-shrink: 0; 
 }
 
 .hidden {
