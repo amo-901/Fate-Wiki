@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(21, 21, 21);
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(5, min(20%, 170px)); /* this is repeating auto 7 times, 1fr means 1 fraction of the row space */
+    justify-content: center;
+    padding: 10px;
+    gap: 25px; 
+}
+
+.master-card-slot {
+  perspective: 800px;
+}
+
+.master-card {
+  width: 170px;
+  height: 240px;
+  border: 1px solid rgb(6, 34, 105);
+  border-radius: 10px;
+
+  transform-style: preserve-3d;
+  transform: rotateX(0deg) rotateY(0deg) translateY(0) scale(1);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+
+  cursor: pointer;
+}
+
+.master-card.is-hovering {
+  box-shadow: 0 0 15px 5px rgb(4, 96, 254);
+}
