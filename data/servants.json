@@ -7420,7 +7420,7 @@
         "pros": [
           "VP Gain",
           "Cheap Power",
-          "Adapatable"
+          "Adaptable"
         ],
         "cons": [
           "Prediction Reliant"
@@ -8934,6 +8934,7 @@
       "Combat Plays",
       "Command Seal Hate",
       "Control",
+      "Deck Destruction",
       "Enemy Displacement",
       "Event Manipulation",
       "Foreigner Transform",
