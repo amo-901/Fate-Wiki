@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background: #111;
+    font-family: Arial, sans-serif;
+}
+
+/* The entire screen */
+.shattered-screen {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.25),
+            rgba(0, 0, 0, 0.25)
+        ),
+        url("background.jpg");
+
+    background-size: cover;
+    background-position: center;
+}
+
+/* Every shard */
+.shard {
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+
+    transition:
+        transform 0.35s ease,
+        filter 0.35s ease;
+}
+
+/* Shard 1 - TOP */
+.shard-1 {
+    clip-path: polygon(
+        0% 0%,
+        100% 0%,
+        62% 43%,
+        48% 52%,
+        0% 35%
+    );
+
+    background: rgba(255, 255, 255, 0.08);
+}
+
+/* Shard 2 - LEFT */
+.shard-2 {
+    clip-path: polygon(
+        0% 35%,
+        48% 52%,
+        55% 100%,
+        0% 100%
+    );
+
+    background: rgba(255, 255, 255, 0.06);
+}
+
+/* Shard 3 - RIGHT */
+.shard-3 {
+    clip-path: polygon(
+        100% 0%,
+        100% 100%,
+        55% 100%,
+        48% 52%,
+        62% 43%
+    );
+
+    background: rgba(255, 255, 255, 0.10);
+}
+
+/* Shard 4 - BOTTOM LEFT */
+.shard-4 {
+    clip-path: polygon(
+        0% 100%,
+        55% 100%,
+        48% 52%,
+        0% 35%
+    );
+
+    background: rgba(255, 255, 255, 0.04);
+    background-image: url(resources/Master_Back.png);
+}
+
+/* Shard 5 - CENTER */
+.shard-5 {
+    clip-path: polygon(
+        62% 43%,
+        100% 0%,
+        100% 100%,
+        55% 100%,
+        48% 52%
+    );
+
+    background: rgba(255, 255, 255, 0.05);
+}
+
+/* Text */
+.shard span {
+    position: absolute;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+    pointer-events: none;
+}
+
+/* Hover effect */
+.shard:hover {
+    filter: brightness(1.5);
+    transform: scale(1.015);
+    z-index: 10;
+}
