@@ -12,11 +12,41 @@
 
     </header>
     <main>
-
+        <div class="filter-board">
+            <button id="filterToggle" class="filter-toggle-btn">Filter</button>
+        </div>
+        <div class="cards-grid" id="cardsGrid"></div>
     </main>
     <footer>
         
     </footer>
-    
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="master-modal">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-info">
+                <img class="modal-portrait" id="modalPortrait" src="" alt="">
+                    <div class="modal-text">
+                        <div class="modal-master-title">
+                            <h1 class="master-name" id="master-name">Master Name</h1>
+                        </div>
+                        <p class="modal-master-description" id="master-description"></p>
+                    </div>
+            </div>
+            <div class="modal-section">
+                <div class="modal-headings">
+                    <p>Master Abilities: </p>
+                </div>
+                <div class="ability-grid" id="modalAbilities"></div>
+            </div>
+            <div class="modal-section">
+                <div class="modal-headings">
+                <p id="assets-heading">Master Assets: </p>
+                </div>
+                <div class="asset-grid" id="modalAssets"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="masters.js"></script>
 </body>
 </html>
