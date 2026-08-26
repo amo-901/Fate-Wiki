@@ -13,12 +13,13 @@ body {
     align-items: center;
     position: fixed;
     color: white;
-    -webkit-text-stroke: 3px rgb(203, 14, 14);
+    -webkit-text-stroke: 4px rgb(203, 14, 14);
     filter: 
         drop-shadow(0 0 1px white)
         drop-shadow(0 0 3px red)
         drop-shadow(0 0 8px red);
     z-index: 2;
+    user-select: none;
 }
 
 #summoning-circle {
@@ -30,6 +31,8 @@ body {
     z-index: -3;
     opacity: 0.3;
     filter: drop-shadow(0 0 15px red);
+    -webkit-user-drag: none;
+    user-select: none;
 }
 
 .frontpage-resource {
