@@ -13,6 +13,7 @@
     </header>
     <main>
         <div class="filter-board">
+            <input type="text" id="sidebarSearch" class="sidebar-search" placeholder="Search servant name...">
             <button id="filterToggle" class="filter-toggle-btn">Filter</button>
         </div>
         <div class="cards-grid" id="cardsGrid"></div>
@@ -24,11 +25,7 @@
     <!-- Filter sidebar -->
     <div class="filter-sidebar" id="filterSidebar">
         <button class="sidebar-close" id="sidebarClose">&times;</button>
-        <div class="filter-content">
-            <div class="filter-group">
-                <input type="text" id="sidebarSearch" class="sidebar-search" placeholder="Search servant name...">
-            </div>
-            
+        <div class="filter-content">         
             <div class="filter-group">
                 <h3>Class</h3>
                 <div id="classFilterGroup"></div>
