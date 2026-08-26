@@ -84,6 +84,7 @@ body {
 .nav-button a{
     color: inherit;
     text-decoration: none;
+    cursor: url("resources/cursor.png") 12 0, pointer;
 }
 
 @keyframes rotate {
