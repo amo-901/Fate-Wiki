@@ -11,13 +11,13 @@ function renderGrid(masters) {
   const grid = document.getElementById('cardsGrid');
   grid.innerHTML = '';
 
-  servants.forEach((servant) => {
+  masters.forEach((master) => {
     const slot = document.createElement('div');
     slot.classList.add('master-card-slot');
 
     const img = document.createElement('img');
     img.classList.add('master-card');
-    img.src = `images/Servants/${master.master_id}/Profile.webp`;
+    img.src = `images/Masters/${master.master_id}/Profile.webp`;
     img.alt = master.master_name;
     img.loading = 'lazy'; // for making it easier to load website
 
