@@ -81,6 +81,11 @@ body {
     font-size: 40px;
 }
 
+.nav-button a{
+    color: inherit;
+    text-decoration: none;
+}
+
 @keyframes rotate {
     from {
         transform: rotate(0deg);
