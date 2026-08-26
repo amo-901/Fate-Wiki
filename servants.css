@@ -14,6 +14,22 @@ body {
   margin-left: 50px;
 }
 
+.taskbar-buttons {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.nav-button {
+    font-size: 30px;
+}
+
+.nav-button a{
+    color: inherit;
+    text-decoration: none;
+    cursor: url("resources/cursor.png") 12 0, pointer;
+}
+
 .filter-board {
   display: flex;
   justify-content: center;
