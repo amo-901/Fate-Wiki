@@ -2,6 +2,18 @@ body {
     background-color: rgb(21, 21, 21);
 }
 
+.upper-taskbar {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+#taskbar-logo {
+  height: 200px;
+  width: 200px;
+  margin-left: 50px;
+}
+
 .filter-board {
   display: flex;
   justify-content: center;
