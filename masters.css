@@ -70,6 +70,77 @@ body {
   margin: 0 5%;
 }
 
+.filter-sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: min(90vw, 400px);
+  height: 100vh;
+  background: rgb(5, 12, 30);
+  border-left: 1px solid rgba(60, 86, 255, 0.4);
+  padding: 30px 20px;
+  overflow-y: auto;
+  z-index: 200;
+
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+}
+
+.sidebar-search::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+#mechanicsFilterGroup {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4px 10px;
+}
+
+.filter-sidebar.is-open {
+  transform: translateX(0);
+}
+
+.sidebar-close {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  float: right;
+}
+
+.filter-group {
+  clear: both;
+  margin-top: 20px;
+}
+
+.filter-group h3 {
+  color: gold;
+  border-bottom: 1px solid rgba(255, 215, 0, 0.3);
+  padding-bottom: 6px;
+}
+
+.filter-checkbox-label {
+  display: block;
+  color: white;
+  padding: 4px 0;
+  cursor: pointer;
+  text-wrap: balance;
+}
+
+.reset-btn {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  padding: 10px;
+  background: rgb(17, 54, 122);
+  color: white;
+  border: 1px solid rgba(66, 115, 228, 0.989);
+  border-radius: 6px;
+  cursor: pointer;
+  flex-shrink: 0; 
+}
+
 .cards-grid {
     display: grid;
     grid-template-columns: repeat(5, min(20%, 170px)); /* this is repeating auto 7 times, 1fr means 1 fraction of the row space */
