@@ -219,6 +219,18 @@ body {
   border-radius: 8px;
 }
 
+.ascension-info {
+  background-color: azure;
+  border-radius: 15px;
+  padding: 2%;
+}
+
+.ascension-portrait {
+  width: 20%;
+  padding-left: 2%;
+  border-radius: 8px;
+}
+
 .asset-grid {
   display: grid;
   grid-template-columns: repeat(5, min(17%, 200px));

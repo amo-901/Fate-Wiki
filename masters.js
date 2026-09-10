@@ -100,6 +100,11 @@ function openMasterModal(master) {
     abilityContainer.classList.add('hidden');
   }
   
+  if (master.ascension) {
+    document.getElementById('modalAscension').src = getAscensionPath(master);
+    document.getElementById('modalAscension').alt = master.ascension.card_name;
+  }
+
   if (master.has_assets) {
     assetsHeading.classList.remove('hidden');
     assetContainer.classList.remove('hidden');
@@ -126,6 +131,10 @@ function getAbilityImagePath(master, ability) {
 
 function getAssetPath(master, asset) {
     return `images/Masters/${master.master_id}/Assets/Asset${asset.asset_order}.webp`;
+}
+
+function getAscensionPath(master) {
+  return `images/Masters/${master.master_id}/Ascension.webp`
 }
 
 document.getElementById('modalClose').addEventListener('click', closeMasterModal);
