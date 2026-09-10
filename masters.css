@@ -129,7 +129,7 @@ body {
 }
 
 .master-modal::-webkit-scrollbar-track {
-  background: rgb(30, 5, 5);
+  background: rgb(5, 11, 30);
   border-radius: 8px;
 }
 
@@ -168,7 +168,7 @@ body {
   gap: 12px;
   padding: 0;
   background-image: linear-gradient(rgba(50, 8, 8, 0.3), rgba(50, 8, 8, 0.3)),
-    url('images/Modal-Backgrounds/Saber-Background.png');
+    url('images/Modal-Backgrounds/071da864-46a5-4ccd-96d7-a5b687e3b330.png');
   background-size: 100%;
   padding: 2%;
   border-radius: 15px;

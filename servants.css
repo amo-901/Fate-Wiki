@@ -195,7 +195,7 @@ body {
   grid-template-columns: repeat(6, min(14%, 180px));
   justify-content: left;
   gap: 3%;
-  background-color: rgba(30, 30, 185, 0.572);
+  background-color: rgba(108, 18, 18, 0.572);
   justify-content: center;
   padding: 1%;
   padding-bottom: 2%;
