@@ -60,3 +60,81 @@ function renderGrid(masters) {
     grid.appendChild(slot);
   });
 }
+
+function openMasterModal(master) {
+  document.getElementById('modalPortrait').src =
+    `images/Masters/${master.master_id}/Profile.webp`;
+
+  const abilityHeading = document.getElementById('ability-heading')
+  const abilityContainer = document.getElementById('modalAbilities');
+  abilityHeading.classList.add('hidden')
+  abilityContainer.classList.add('hidden')
+  abilityContainer.innerHTML = '';   // clear any previous master's abilities first
+
+  const masterName = document.getElementById('master-name')
+  masterName.textContent = '';
+
+  masterName.textContent = master.master_name;
+  document.getElementById('master-description').textContent = master.description || 'No description available.';
+
+  const assetsHeading = document.getElementById('assets-heading');
+  const assetContainer = document.getElementById('modalAssets');
+  assetsHeading.classList.add('hidden')
+  assetContainer.classList.add('hidden')
+  assetContainer.innerHTML = '';
+
+  if (master.has_abilities) {
+    abilityHeading.classList.remove('hidden');
+    abilityContainer.classList.remove('hidden');
+    
+    master.abilities.forEach((ability) => {
+    const img = document.createElement('img');
+    img.classList.add('ability-card');
+    img.src = getAbilityImagePath(master, ability);
+    img.alt = ability.card_name;
+    img.loading = 'lazy';
+    abilityContainer.appendChild(img);
+    });
+  } else {
+    abilityHeading.classList.add('hidden');
+    abilityContainer.classList.add('hidden');
+  }
+  
+  if (master.has_assets) {
+    assetsHeading.classList.remove('hidden');
+    assetContainer.classList.remove('hidden');
+
+    master.assets.forEach((asset) => {
+    const img = document.createElement('img');
+    img.classList.add('asset-card');
+    img.src = getAssetPath(master, asset);
+    img.alt = asset.card_name;
+    img.loading = 'lazy';
+    assetContainer.appendChild(img);
+    });
+  } else {
+    assetsHeading.classList.add('hidden');
+    assetContainer.classList.add('hidden');
+  }
+
+  document.getElementById('modalOverlay').classList.add('is-open');
+}
+
+function getAbilityImagePath(master, ability) {
+    return `images/Masters/${master.master_id}/Abilities/Ability${ability.ability_order}.webp`;
+}
+
+function getAssetPath(master, asset) {
+    return `images/Masters/${master.master_id}/Assets/Asset${asset.asset_order}.webp`;
+}
+
+document.getElementById('modalClose').addEventListener('click', closeMasterModal);
+document.getElementById('modalOverlay').addEventListener('click', (event) => {
+  if (event.target.id === 'modalOverlay') {
+    closeMasterModal();
+  }
+});
+
+function closeMasterModal() {
+  document.getElementById('modalOverlay').classList.remove('is-open');
+}

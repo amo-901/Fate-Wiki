@@ -92,3 +92,167 @@ body {
 .master-card.is-hovering {
   box-shadow: 0 0 15px 5px rgb(4, 96, 254);
 }
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.modal-overlay.is-open {
+  visibility: visible;
+  opacity: 1;
+}
+
+.master-modal {
+  background: rgb(50, 8, 8);
+  border: 1px solid rgba(255, 60, 60, 0.4);
+  border-radius: 16px;
+  padding: 30px;
+  width: min(65vw, 2000px);
+  max-height: 80vh;        /* <-- new: gives the box an actual limit */
+  overflow-y: auto;         /* <-- changed from "scroll" */
+  overflow-x: hidden;
+  position: relative;
+}
+
+.master-modal::-webkit-scrollbar {
+  width: 10px;
+}
+
+.master-modal::-webkit-scrollbar-track {
+  background: rgb(30, 5, 5);
+  border-radius: 8px;
+}
+
+.master-modal::-webkit-scrollbar-thumb {
+  background: rgb(96, 13, 13);
+  border-radius: 8px;
+  border: 2px solid rgb(30, 5, 5);
+}
+
+.master-modal::-webkit-scrollbar-thumb:hover {
+  background: rgb(220, 50, 50);
+}
+
+.modal-close {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background: none;
+  border: 1px solid black;
+  border-radius: 150px;
+  color: white;
+  background-color: rgb(58, 2, 2);
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.modal-portrait {
+  width: 30%;
+  border-radius: 10px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.modal-info {
+  display:flex;
+  gap: 12px;
+  padding: 0;
+  background-image: linear-gradient(rgba(50, 8, 8, 0.3), rgba(50, 8, 8, 0.3)),
+    url('images/Modal-Backgrounds/Saber-Background.png');
+  background-size: 100%;
+  padding: 2%;
+  border-radius: 15px;
+}
+
+.modal-headings {
+  font-size: 25px;
+  color: gold;
+  -webkit-text-stroke: 1px rgb(141, 122, 15)
+}
+
+.modal-text {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  margin-top: 0px;
+}
+
+.modal-master-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-section {
+  width: min(65vw, 1600px);
+  margin-bottom: 20px;
+}
+
+.ability-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+  justify-content: center;
+  background-color: rgba(30, 30, 185, 0.572);
+  column-gap: 5%;
+  border-radius: 15px;
+  padding: 1%;
+}
+
+.ability-card {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.asset-grid {
+  display: grid;
+  grid-template-columns: repeat(5, min(17%, 200px));
+  justify-content: center;
+  gap: 3%; 
+  background-color: rgba(63, 62, 62, 0.900);
+  padding: 2%;
+  overflow-y: scroll;
+  border-radius: 15px;
+}
+
+.asset-grid::-webkit-scrollbar {
+  width: 10px;
+}
+
+.asset-grid::-webkit-scrollbar-track {
+  background: rgb(63, 62, 62);
+  border-radius: 8px;
+}
+
+.asset-grid::-webkit-scrollbar-thumb {
+  background: rgb(140, 140, 140);
+  border-radius: 8px;
+  border: 2px solid rgb(30, 5, 5);
+}
+
+.asset-grid::-webkit-scrollbar-thumb:hover {
+  background: rgb(246, 246, 246);
+}
+
+.asset-card {
+  width: 100%;   /* pick whatever looks right for your column width */
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+
