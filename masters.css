@@ -113,8 +113,8 @@ body {
 }
 
 .master-modal {
-  background: rgb(50, 8, 8);
-  border: 1px solid rgba(255, 60, 60, 0.4);
+  background: rgb(8, 9, 50);
+  border: 1px solid rgba(60, 83, 255, 0.4);
   border-radius: 16px;
   padding: 30px;
   width: min(65vw, 2000px);
@@ -134,13 +134,13 @@ body {
 }
 
 .master-modal::-webkit-scrollbar-thumb {
-  background: rgb(96, 13, 13);
+  background: rgb(13, 42, 96);
   border-radius: 8px;
-  border: 2px solid rgb(30, 5, 5);
+  border: 2px solid rgb(5, 7, 30);
 }
 
 .master-modal::-webkit-scrollbar-thumb:hover {
-  background: rgb(220, 50, 50);
+  background: rgb(50, 101, 220);
 }
 
 .modal-close {
@@ -151,7 +151,7 @@ body {
   border: 1px solid black;
   border-radius: 150px;
   color: white;
-  background-color: rgb(58, 2, 2);
+  background-color: rgb(2, 19, 58);
   font-size: 26px;
   cursor: pointer;
 }
