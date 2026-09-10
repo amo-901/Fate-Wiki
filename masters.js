@@ -4,6 +4,7 @@ fetch('data/servants.json')
   .then(response => response.json())
   .then(data => {
     allMasters = data.masters;
+    buildCheckboxGroup('mechanicsFilterGroup', data.mechanicsList, 'mechanics-checkbox');
     renderGrid(allMasters);
   });
 
@@ -21,7 +22,7 @@ function renderGrid(masters) {
     img.alt = master.master_name;
     img.loading = 'lazy'; // for making it easier to load website
 
-    // --- new: tilt + lift ---
+    // tilt + lift
     img.addEventListener('mouseenter', () => {
       img.classList.add('is-hovering');
       img.style.transition = 'none';
@@ -164,19 +165,15 @@ function getCheckedValues(checkboxClass) {
 
 function applyFilters() {
   const searchText = document.getElementById('sidebarSearch').value.toLowerCase();
-  const selectedClasses = getCheckedValues('class-checkbox');
-  const selectedPros = getCheckedValues('pro-checkbox');
-  const selectedCons = getCheckedValues('con-checkbox');
+  const selectedMechanics = getCheckedValues('mechanics-checkbox');
 
-  const filteredServants = allServants.filter((servant) => {
-    const matchesSearch = servant.servant_name.toLowerCase().includes(searchText);
-    const matchesClass = selectedClasses.length === 0 || selectedClasses.includes(servant.class);
-    const matchesPros = selectedPros.every((trait) => servant.traits.pros.includes(trait));
-    const matchesCons = selectedCons.every((trait) => servant.traits.cons.includes(trait));
-    return matchesSearch && matchesClass && matchesPros && matchesCons;
+  const filteredMasters = allMasters.filter((master) => {
+    const matchesSearch = master.master_name.toLowerCase().includes(searchText);
+    const matchesMechanics = selectedMechanics.length === 0 || selectedMechanics.includes(master.mechanic);
+    return matchesSearch && matchesMechanics;
   });
 
-  renderGrid(filteredServants);
+  renderGrid(filteredMasters);
 }
 
 let searchDebounceTimer;
