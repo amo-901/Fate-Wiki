@@ -18,4 +18,4 @@ No prerequisites as far as I know, but I need to look into it further as this pr
 Email - amir2010sha@gmail.com
 Discord - _amo_
 
-Project Link: not deployed live yet
+Project Link: https://amo-901.github.io/Fate-Wiki/
