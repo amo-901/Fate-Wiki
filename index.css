@@ -43,9 +43,7 @@ body {
 
 #homepage-logo {
     position: fixed;
-    width: 75vh;
-    height: 75vh;
-    top: 12.5vh;
+    width: 100vh;
     z-index: 1;
     filter: 
         drop-shadow(0 0 1px white)
