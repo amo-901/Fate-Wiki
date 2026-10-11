@@ -4,6 +4,7 @@ fetch('data/servants.json')
   .then(response => response.json())
   .then(data => {
     allMasters = data.masters;
+    buildCheckboxGroup('mechanicsFilterGroup', data.mechanicsList, 'mechanics-checkbox');
     renderGrid(allMasters);
   });
 
@@ -21,7 +22,7 @@ function renderGrid(masters) {
     img.alt = master.master_name;
     img.loading = 'lazy'; // for making it easier to load website
 
-    // --- new: tilt + lift ---
+    // tilt + lift
     img.addEventListener('mouseenter', () => {
       img.classList.add('is-hovering');
       img.style.transition = 'none';
@@ -59,4 +60,152 @@ function renderGrid(masters) {
     slot.appendChild(img);
     grid.appendChild(slot);
   });
+}
+
+function openMasterModal(master) {
+  document.getElementById('modalPortrait').src =
+    `images/Masters/${master.master_id}/Profile.webp`;
+
+  const abilityHeading = document.getElementById('ability-heading')
+  const abilityContainer = document.getElementById('modalAbilities');
+  abilityHeading.classList.add('hidden')
+  abilityContainer.classList.add('hidden')
+  abilityContainer.innerHTML = '';   // clear any previous master's abilities first
+
+  const masterName = document.getElementById('master-name')
+  masterName.textContent = '';
+
+  masterName.textContent = master.master_name;
+  document.getElementById('master-description').textContent = master.description || 'No description available.';
+
+  const assetsHeading = document.getElementById('assets-heading');
+  const assetContainer = document.getElementById('modalAssets');
+  assetsHeading.classList.add('hidden')
+  assetContainer.classList.add('hidden')
+  assetContainer.innerHTML = '';
+
+  if (master.has_abilities) {
+    abilityHeading.classList.remove('hidden');
+    abilityContainer.classList.remove('hidden');
+    
+    master.abilities.forEach((ability) => {
+    const img = document.createElement('img');
+    img.classList.add('ability-card');
+    img.src = getAbilityImagePath(master, ability);
+    img.alt = ability.card_name;
+    img.loading = 'lazy';
+    abilityContainer.appendChild(img);
+    });
+  } else {
+    abilityHeading.classList.add('hidden');
+    abilityContainer.classList.add('hidden');
+  }
+  
+  if (master.ascension) {
+    document.getElementById('modalAscension').src = getAscensionPath(master);
+    document.getElementById('modalAscension').alt = master.ascension.card_name;
+  }
+
+  if (master.has_assets) {
+    assetsHeading.classList.remove('hidden');
+    assetContainer.classList.remove('hidden');
+
+    master.assets.forEach((asset) => {
+    const img = document.createElement('img');
+    img.classList.add('asset-card');
+    img.src = getAssetPath(master, asset);
+    img.alt = asset.card_name;
+    img.loading = 'lazy';
+    assetContainer.appendChild(img);
+    });
+  } else {
+    assetsHeading.classList.add('hidden');
+    assetContainer.classList.add('hidden');
+  }
+
+  document.getElementById('modalOverlay').classList.add('is-open');
+}
+
+function getAbilityImagePath(master, ability) {
+    return `images/Masters/${master.master_id}/Abilities/Ability${ability.ability_order}.webp`;
+}
+
+function getAssetPath(master, asset) {
+    return `images/Masters/${master.master_id}/Assets/Asset${asset.asset_order}.webp`;
+}
+
+function getAscensionPath(master) {
+  return `images/Masters/${master.master_id}/Ascension.webp`
+}
+
+function buildCheckboxGroup(containerId, values, checkboxClass) {
+  const group = document.getElementById(containerId);
+
+  values.forEach((value) => {
+    const label = document.createElement('label');
+    label.classList.add('filter-checkbox-label');
+
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.value = value;
+    checkbox.classList.add(checkboxClass);
+    checkbox.addEventListener('change', applyFilters);   // instant filtering
+
+    label.appendChild(checkbox);
+    label.appendChild(document.createTextNode(' ' + value));
+
+    group.appendChild(label);
+  });
+}
+
+function getCheckedValues(checkboxClass) {
+  const checked = document.querySelectorAll(`.${checkboxClass}:checked`);
+  return Array.from(checked).map((checkbox) => checkbox.value);
+}
+
+function applyFilters() {
+  const searchText = document.getElementById('sidebarSearch').value.toLowerCase();
+  const selectedMechanics = getCheckedValues('mechanics-checkbox');
+
+  const filteredMasters = allMasters.filter((master) => {
+    const matchesSearch = master.master_name.toLowerCase().includes(searchText);
+    const matchesMechanics = selectedMechanics.length === 0 || selectedMechanics.includes(master.mechanic);
+    return matchesSearch && matchesMechanics;
+  });
+
+  renderGrid(filteredMasters);
+}
+
+let searchDebounceTimer;
+
+document.getElementById('sidebarSearch').addEventListener('input', () => {
+  clearTimeout(searchDebounceTimer);
+  searchDebounceTimer = setTimeout(applyFilters, 150);
+});
+
+document.getElementById('filterToggle').addEventListener('click', () => {
+  document.getElementById('filterSidebar').classList.add('is-open');
+});
+
+document.getElementById('sidebarClose').addEventListener('click', () => {
+  document.getElementById('filterSidebar').classList.remove('is-open');
+});
+
+document.getElementById('resetFilters').addEventListener('click', () => {
+  document.getElementById('sidebarSearch').value = '';
+  document.querySelectorAll('.filter-sidebar input[type="checkbox"]').forEach((checkbox) => {
+    checkbox.checked = false;
+  });
+  applyFilters();
+});
+
+document.getElementById('modalClose').addEventListener('click', closeMasterModal);
+document.getElementById('modalOverlay').addEventListener('click', (event) => {
+  if (event.target.id === 'modalOverlay') {
+    closeMasterModal();
+  }
+});
+
+function closeMasterModal() {
+  document.getElementById('modalOverlay').classList.remove('is-open');
 }

@@ -92,6 +92,7 @@ function openServantModal(servant) {
     img.src = getSkillImagePath(servant, skill);
     img.alt = skill.skill_name;
     img.loading = 'lazy';
+    img.addEventListener('click', () => openImageLightbox(img.src, img.alt));   
     skillsContainer.appendChild(img);
   });
 
@@ -102,6 +103,7 @@ function openServantModal(servant) {
     img.classList.add('deck-card');
     img.src = path;
     img.loading = 'lazy';
+    img.addEventListener('click', () => openImageLightbox(img.src, img.alt));  
     deckContainer.appendChild(img);
   });
 
@@ -115,6 +117,7 @@ function openServantModal(servant) {
       img.classList.add('asset-card');
       img.src = path;
       img.loading = 'lazy';
+      img.addEventListener('click', () => openImageLightbox(img.src, img.alt)); 
       assetContainer.appendChild(img);
     });
   } else {
@@ -238,6 +241,23 @@ function applyFilters() {
 }
 
 let searchDebounceTimer;
+
+function openImageLightbox(imageSrc, imageAlt) {
+  document.getElementById('lightboxImage').src = imageSrc;
+  document.getElementById('lightboxImage').alt = imageAlt;
+  document.getElementById('imageLightbox').classList.add('is-open');
+}
+
+function closeImageLightbox() {
+  document.getElementById('imageLightbox').classList.remove('is-open');
+}
+
+document.getElementById('lightboxClose').addEventListener('click', closeImageLightbox);
+document.getElementById('imageLightbox').addEventListener('click', (event) => {
+  if (event.target.id === 'imageLightbox') {
+    closeImageLightbox();
+  }
+});
 
 document.getElementById('sidebarSearch').addEventListener('input', () => {
   clearTimeout(searchDebounceTimer);

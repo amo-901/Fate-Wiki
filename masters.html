@@ -21,7 +21,7 @@
                     <a href="masters.html">Masters</a>
                 </h1>
                 <h1 class="nav-button">
-                    <a href="cardsearch.html">Card Search</a>
+                    <a href="search.html">Card Search</a>
                 </h1>
                 <h1 class="nav-button">
                     <a href="map.html">Map</a>
@@ -39,6 +39,19 @@
     <footer>
         
     </footer>
+
+    <div class="filter-sidebar" id="filterSidebar">
+        <button class="sidebar-close" id="sidebarClose">&times;</button>
+        <div class="filter-content">         
+            <div class="filter-group">
+                <h3>Mechanics</h3>
+                <div id="mechanicsFilterGroup"></div>
+            </div>
+        </div>
+
+        <button id="resetFilters" class="reset-btn">Reset</button>
+    </div>
+
     <div class="modal-overlay" id="modalOverlay">
         <div class="master-modal">
             <button class="modal-close" id="modalClose">&times;</button>
@@ -53,13 +66,21 @@
             </div>
             <div class="modal-section">
                 <div class="modal-headings">
-                    <p>Master Abilities: </p>
+                    <p id="ability-heading">Master Abilities: </p>
                 </div>
                 <div class="ability-grid" id="modalAbilities"></div>
             </div>
             <div class="modal-section">
                 <div class="modal-headings">
-                <p id="assets-heading">Master Assets: </p>
+                    <p id="ascension-heading">Master Ascension: </p>
+                </div>
+                <div class="ascension-info">
+                    <img class="ascension-portrait" id="modalAscension" src="" alt="">
+                </div>
+            </div>
+            <div class="modal-section">
+                <div class="modal-headings">
+                    <p id="assets-heading">Master Assets: </p>
                 </div>
                 <div class="asset-grid" id="modalAssets"></div>
             </div>
