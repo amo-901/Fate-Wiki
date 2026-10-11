@@ -25,6 +25,9 @@ body {
 
 #homepage-logo {
     position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: min(100vh, 92vw);
     height: auto;
     z-index: 1;
@@ -83,8 +86,10 @@ body {
 }
 
 @media (orientation: portrait) {
-    #homepage-logo {
-        top: 25%;
+
+    #homepage-logo,
+    #summoning-circle {
+        top: 42%;
     }
 
     #homepage-columns-left,
