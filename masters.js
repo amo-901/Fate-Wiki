@@ -73,7 +73,6 @@ function openMasterModal(master) {
   abilityHeading.classList.add('hidden')
   abilityContainer.classList.add('hidden')
 
-
   const masterName = document.getElementById('master-name')
   masterName.textContent = '';
 
