@@ -68,9 +68,11 @@ function openMasterModal(master) {
 
   const abilityHeading = document.getElementById('ability-heading')
   const abilityContainer = document.getElementById('modalAbilities');
+  abilityContainer.innerHTML = '';   // clear any previous master's abilities first
+  
   abilityHeading.classList.add('hidden')
   abilityContainer.classList.add('hidden')
-  abilityContainer.innerHTML = '';   // clear any previous master's abilities first
+
 
   const masterName = document.getElementById('master-name')
   masterName.textContent = '';
