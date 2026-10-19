@@ -33,7 +33,6 @@ function renderGrid(servants) {
     img.alt = servant.servant_name;
     img.loading = 'lazy'; // for making it easier to load website
 
-    // --- new: tilt + lift ---
     img.addEventListener('mouseenter', () => {
       img.classList.add('is-hovering');
       img.style.transition = 'none';

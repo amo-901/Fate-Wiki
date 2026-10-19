@@ -195,8 +195,8 @@ body {
   border-radius: 16px;
   padding: 30px;
   width: min(65vw, 2000px);
-  max-height: 80vh;        /* <-- new: gives the box an actual limit */
-  overflow-y: auto;         /* <-- changed from "scroll" */
+  max-height: 80vh;       
+  overflow-y: auto;         
   overflow-x: hidden;
   position: relative;
 }

@@ -226,8 +226,6 @@ document.getElementById('imageLightbox').addEventListener('click', (event) => {
   }
 });
 
-// the ascension image is a single element that already exists in the HTML,
-// so it only needs one listener, set up once here
 document.getElementById('modalAscension').addEventListener('click', () => {
   const ascension = document.getElementById('modalAscension');
   openImageLightbox(ascension.src, ascension.alt);
