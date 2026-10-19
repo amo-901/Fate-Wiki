@@ -250,6 +250,12 @@ body {
   border-radius: 8px;
 }
 
+.modal-skills img,
+.deck-card,
+.asset-card {
+  cursor: zoom-in;
+}
+
 .filter-toggle-btn {
   background: rgb(96, 13, 13);
   color: white;
