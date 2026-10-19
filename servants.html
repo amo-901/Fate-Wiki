@@ -32,6 +32,10 @@
     <main>
         <div class="filter-board">
             <input type="text" id="sidebarSearch" class="sidebar-search" placeholder="Search servant name...">
+             <div class="sort-dropdown">
+                <button id="sortToggle" class="filter-toggle-btn">Sort</button>
+                <ul class="sort-menu hidden" id="sortMenu"></ul>
+            </div>
             <button id="filterToggle" class="filter-toggle-btn">Filter</button>
         </div>
         <div class="cards-grid" id="cardsGrid"></div>

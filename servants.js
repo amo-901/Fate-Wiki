@@ -1,5 +1,13 @@
 let allServants = [];   // keeps the fetched data around so the popup can use it later
 
+let sortMode = 0;
+
+const sortModes = [
+  { label: 'Default', compare: null },
+  { label: 'A-Z', compare: (a, b) => a.servant_name.localeCompare(b.servant_name) },
+  { label: 'Z-A', compare: (a, b) => b.servant_name.localeCompare(a.servant_name) }
+];
+
 fetch('data/servants.json')
   .then(response => response.json())
   .then(data => {
@@ -237,6 +245,11 @@ function applyFilters() {
     return matchesSearch && matchesClass && matchesPros && matchesCons;
   });
 
+  const compare = sortModes[sortMode].compare;      
+  if (compare) {                                    
+    filteredServants.sort(compare);                 
+  }                                                 
+
   renderGrid(filteredServants);
 }
 
@@ -291,3 +304,43 @@ document.getElementById('modalOverlay').addEventListener('click', (event) => {
 function closeServantModal() {
   document.getElementById('modalOverlay').classList.remove('is-open');
 }
+
+function buildSortMenu() {
+  const menu = document.getElementById('sortMenu');
+
+  sortModes.forEach((mode, index) => {
+    const item = document.createElement('li');
+    item.classList.add('sort-option');
+    item.textContent = mode.label;
+    item.addEventListener('click', () => chooseSort(index));
+    menu.appendChild(item);
+  });
+
+  highlightActiveSort();
+}
+
+function highlightActiveSort() {
+  document.querySelectorAll('.sort-option').forEach((item, index) => {
+    item.classList.toggle('active', index === sortMode);
+  });
+}
+
+function chooseSort(index) {
+  sortMode = index;
+  document.getElementById('sortToggle').textContent = 'Sort: ' + sortModes[index].label;
+  document.getElementById('sortMenu').classList.add('hidden');
+  highlightActiveSort();
+  applyFilters();
+}
+
+document.getElementById('sortToggle').addEventListener('click', () => {
+  document.getElementById('sortMenu').classList.toggle('hidden');
+});
+
+document.addEventListener('click', (event) => {
+  if (!event.target.closest('.sort-dropdown')) {
+    document.getElementById('sortMenu').classList.add('hidden');
+  }
+});
+
+buildSortMenu();
