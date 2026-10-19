@@ -95,6 +95,7 @@ function openMasterModal(master) {
     img.src = getAbilityImagePath(master, ability);
     img.alt = ability.card_name;
     img.loading = 'lazy';
+    img.addEventListener('click', () => openImageLightbox(img.src, img.alt));
     abilityContainer.appendChild(img);
     });
   } else {
@@ -117,6 +118,7 @@ function openMasterModal(master) {
     img.src = getAssetPath(master, asset);
     img.alt = asset.card_name;
     img.loading = 'lazy';
+    img.addEventListener('click', () => openImageLightbox(img.src, img.alt));
     assetContainer.appendChild(img);
     });
   } else {
@@ -205,6 +207,30 @@ document.getElementById('modalOverlay').addEventListener('click', (event) => {
   if (event.target.id === 'modalOverlay') {
     closeMasterModal();
   }
+});
+
+function openImageLightbox(imageSrc, imageAlt) {
+  document.getElementById('lightboxImage').src = imageSrc;
+  document.getElementById('lightboxImage').alt = imageAlt;
+  document.getElementById('imageLightbox').classList.add('is-open');
+}
+
+function closeImageLightbox() {
+  document.getElementById('imageLightbox').classList.remove('is-open');
+}
+
+document.getElementById('lightboxClose').addEventListener('click', closeImageLightbox);
+document.getElementById('imageLightbox').addEventListener('click', (event) => {
+  if (event.target.id === 'imageLightbox') {
+    closeImageLightbox();
+  }
+});
+
+// the ascension image is a single element that already exists in the HTML,
+// so it only needs one listener, set up once here
+document.getElementById('modalAscension').addEventListener('click', () => {
+  const ascension = document.getElementById('modalAscension');
+  openImageLightbox(ascension.src, ascension.alt);
 });
 
 function closeMasterModal() {
