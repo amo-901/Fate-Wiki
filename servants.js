@@ -32,6 +32,7 @@ function renderGrid(servants) {
     img.src = `images/Servants/${servant.servant_id}/Archetype.webp`;
     img.alt = servant.servant_name;
     img.loading = 'lazy'; // for making it easier to load website
+    img.fetchPriority = 'low';
 
     img.addEventListener('mouseenter', () => {
       img.classList.add('is-hovering');
@@ -75,6 +76,7 @@ function renderGrid(servants) {
 function openServantModal(servant) {
   document.getElementById('modalPortrait').src =
     `images/Servants/${servant.servant_id}/Archetype.webp`;
+  document.getElementById('modalPortrait').fetchPriority = 'high'
 
   const skillsContainer = document.getElementById('modalSkills');
   skillsContainer.innerHTML = '';   // clear any previous servant's skills first
@@ -98,7 +100,7 @@ function openServantModal(servant) {
     const img = document.createElement('img');
     img.src = getSkillImagePath(servant, skill);
     img.alt = skill.skill_name;
-    img.loading = 'lazy';
+    img.fetchPriority = 'high';
     img.addEventListener('click', () => openImageLightbox(img.src, img.alt));   
     skillsContainer.appendChild(img);
   });
@@ -109,7 +111,7 @@ function openServantModal(servant) {
     const img = document.createElement('img');
     img.classList.add('deck-card');
     img.src = path;
-    img.loading = 'lazy';
+    img.fetchPriority = 'high';
     img.addEventListener('click', () => openImageLightbox(img.src, img.alt));  
     deckContainer.appendChild(img);
   });
@@ -123,7 +125,7 @@ function openServantModal(servant) {
       const img = document.createElement('img');
       img.classList.add('asset-card');
       img.src = path;
-      img.loading = 'lazy';
+      img.fetchPriority = 'high';
       img.addEventListener('click', () => openImageLightbox(img.src, img.alt)); 
       assetContainer.appendChild(img);
     });
