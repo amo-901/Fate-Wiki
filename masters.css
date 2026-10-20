@@ -1,3 +1,10 @@
+:root {
+  --orb-rgb: 60, 109, 255;
+  --aurora-1: 60, 109, 255;    /* azure */
+  --aurora-2: 40, 200, 255;    /* cyan */
+  --aurora-3: 140, 80, 255;    /* violet */
+}
+
 body {
     background: linear-gradient(
         to right,

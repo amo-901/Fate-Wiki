@@ -1,0 +1,117 @@
+:root {
+  --aurora-1: 255, 40, 60;     /* crimson */
+  --aurora-2: 200, 30, 120;    /* rose */
+  --aurora-3: 255, 110, 50;    /* warm orange */
+  --aurora-strength: 1;        /* overall brightness, 0 to 1 */
+}
+
+.orb {
+  position: fixed;
+  bottom: -30px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(var(--orb-rgb, 255, 60, 60), 0.9) 0%,
+    rgba(var(--orb-rgb, 255, 60, 60), 0.4) 55%,
+    rgba(var(--orb-rgb, 255, 60, 60), 0) 100%
+  );
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0;
+  will-change: transform, opacity;
+  animation-name: orb-float;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes orb-float {
+  0%   { transform: translate3d(0, 0, 0) scale(1); opacity: 0; }
+  10%  { opacity: 0.9; }
+  100% { transform: translate3d(var(--drift, 0px), -110vh, 0) scale(0.5); opacity: 0; }
+}
+
+.aurora {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40vh;
+  z-index: -2;
+  pointer-events: none;
+  overflow: hidden;
+  opacity: var(--aurora-strength);
+}
+
+.aurora-band {
+  position: absolute;
+  bottom: -15%;
+  width: 70%;
+  height: 100%;
+  transform-origin: 50% 100%;
+  opacity: 0.5;
+  will-change: transform, opacity;
+  animation: aurora-sway 16s ease-in-out infinite alternate;
+}
+
+.aurora-band-1 {
+  left: -15%;
+  background: radial-gradient(ellipse at 50% 100%,
+    rgba(var(--aurora-1), 0.35) 0%, rgba(var(--aurora-1), 0) 70%);
+}
+
+.aurora-band-2 {
+  left: 22%;
+  background: radial-gradient(ellipse at 50% 100%,
+    rgba(var(--aurora-2), 0.35) 0%, rgba(var(--aurora-2), 0) 70%);
+  animation-duration: 22s;
+  animation-delay: -8s;
+  animation-direction: alternate-reverse;
+}
+
+.aurora-band-3 {
+  left: 45%;
+  background: radial-gradient(ellipse at 50% 100%,
+    rgba(var(--aurora-3), 0.3) 0%, rgba(var(--aurora-3), 0) 70%);
+  animation-duration: 28s;
+  animation-delay: -15s;
+}
+
+/* faint vertical streaks that fade out toward the top, like aurora curtains */
+.aurora::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -5%;
+  width: 110%;
+  background:
+    repeating-linear-gradient(90deg, transparent 0px,
+      rgba(var(--aurora-2), 0.10) 30px, transparent 85px),
+    repeating-linear-gradient(90deg, transparent 0px,
+      rgba(var(--aurora-1), 0.08) 45px, transparent 140px);
+  -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent 85%);
+  mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent 85%);
+  animation: aurora-shimmer 9s ease-in-out infinite alternate;
+}
+
+@keyframes aurora-sway {
+  0%   { transform: translateX(-8%) scaleY(0.85); opacity: 0.3; }
+  50%  { transform: translateX(6%)  scaleY(1.1);  opacity: 0.8; }
+  100% { transform: translateX(12%) scaleY(0.9);  opacity: 0.45; }
+}
+
+@keyframes aurora-shimmer {
+  0%   { transform: translateX(-3%); opacity: 0.25; }
+  100% { transform: translateX(3%);  opacity: 0.85; }
+}
+
+@media (max-width: 700px) {
+  .aurora::after { display: none; }   /* lighter on phones */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .orb { display: none; }
+  .aurora-band,
+  .aurora::after { animation: none; }
+}
+
