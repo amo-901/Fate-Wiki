@@ -13,6 +13,7 @@ fetch('data/servants.json')
   .then(data => {
     allServants = data.servants;
     buildCheckboxGroup('classFilterGroup', allClasses, 'class-checkbox');
+    buildCheckboxGroup('playstyleFilterGroup', allPlaystyles, 'playstyle-checkbox');
     buildCheckboxGroup('prosFilterGroup', data.traitsList.pros, 'pro-checkbox');
     buildCheckboxGroup('consFilterGroup', data.traitsList.cons, 'con-checkbox');
     renderGrid(allServants);
@@ -213,6 +214,8 @@ const allClasses = [
   "Beast", "Moon Cancer"
 ];
 
+const allPlaystyles = ["Bulwark", "Nuker", "Scammer", "Skirmisher", "Thrasher", "Wildcard"];
+
 function buildCheckboxGroup(containerId, values, checkboxClass) {
   const group = document.getElementById(containerId);
 
@@ -241,15 +244,17 @@ function getCheckedValues(checkboxClass) {
 function applyFilters() {
   const searchText = document.getElementById('sidebarSearch').value.toLowerCase();
   const selectedClasses = getCheckedValues('class-checkbox');
+  const selectedPlaystyles = getCheckedValues('playstyle-checkbox');
   const selectedPros = getCheckedValues('pro-checkbox');
   const selectedCons = getCheckedValues('con-checkbox');
 
   const filteredServants = allServants.filter((servant) => {
     const matchesSearch = servant.servant_name.toLowerCase().includes(searchText);
     const matchesClass = selectedClasses.length === 0 || selectedClasses.includes(servant.class);
+    const matchesPlaystyle = selectedPlaystyles.length === 0 || selectedPlaystyles.includes(servant.playstyle);
     const matchesPros = selectedPros.every((trait) => servant.traits.pros.includes(trait));
     const matchesCons = selectedCons.every((trait) => servant.traits.cons.includes(trait));
-    return matchesSearch && matchesClass && matchesPros && matchesCons;
+    return matchesSearch && matchesClass && matchesPlaystyle && matchesPros && matchesCons;
   });
 
   const compare = sortModes[sortMode].compare;      

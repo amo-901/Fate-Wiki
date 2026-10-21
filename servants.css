@@ -338,6 +338,12 @@ body {
   gap: 4px 10px;
 }
 
+#playstyleFilterGroup {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4px 10px;
+}
+
 #prosFilterGroup {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
