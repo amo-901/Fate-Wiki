@@ -1,6 +1,5 @@
 body {
     background-color: rgb(18, 18, 18);
-    background-image: url('images/Modal-Backgrounds/fuyuki_city_panorama_5760x1080.png');
 }
 
 .panorama {
@@ -9,7 +8,7 @@ body {
   left: 0;
   height: 100dvh;                         /* always as tall as the screen */
   width: calc(100dvh * 5760 / 1080 * 3);  /* 3 copies of the image side by side */
-  background-image: url('images/Modal-Backgrounds/fuyuki_city_panorama_5760x1080.png');
+  background-image: url('images/Modal-Backgrounds/fuyuki_city_panorama_5760x1080.webp');
   background-size: auto 100%;             /* height fits the screen, width follows the image's shape */
   background-repeat: repeat-x;            /* tile it sideways */
   z-index: -99;                            /* behind everything */

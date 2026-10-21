@@ -285,7 +285,18 @@ document.getElementById('sidebarSearch').addEventListener('input', () => {
 });
 
 document.getElementById('filterToggle').addEventListener('click', () => {
-  document.getElementById('filterSidebar').classList.add('is-open');
+  document.getElementById('filterSidebar').classList.toggle('is-open');   
+});
+
+// clicking anywhere outside the sidebar closes it
+document.addEventListener('click', (event) => {
+  const sidebar = document.getElementById('filterSidebar');
+  const clickedInsideSidebar = event.target.closest('#filterSidebar');
+  const clickedFilterButton = event.target.closest('#filterToggle');
+
+  if (!clickedInsideSidebar && !clickedFilterButton) {
+    sidebar.classList.remove('is-open');
+  }
 });
 
 document.getElementById('sidebarClose').addEventListener('click', () => {
