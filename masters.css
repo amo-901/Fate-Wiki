@@ -299,6 +299,9 @@ body {
 
 .ascension-info {
   background-color: azure;
+  background-image: linear-gradient(rgba(50, 8, 8, 0.3), rgba(50, 8, 8, 0.3)),
+    url('images/Modal-Backgrounds/Ascension_Banner.png');
+  background-size: 100%;
   border-radius: 15px;
   padding: 2%;
 }

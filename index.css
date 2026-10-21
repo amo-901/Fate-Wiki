@@ -1,5 +1,31 @@
 body {
     background-color: rgb(18, 18, 18);
+    background-image: url('images/Modal-Backgrounds/fuyuki_city_panorama_5760x1080.png');
+}
+
+.panorama {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100dvh;                         /* always as tall as the screen */
+  width: calc(100dvh * 5760 / 1080 * 3);  /* 3 copies of the image side by side */
+  background-image: url('images/Modal-Backgrounds/fuyuki_city_panorama_5760x1080.png');
+  background-size: auto 100%;             /* height fits the screen, width follows the image's shape */
+  background-repeat: repeat-x;            /* tile it sideways */
+  z-index: -99;                            /* behind everything */
+  pointer-events: none;                   /* clicks go through it */
+
+  animation: pan 300s linear infinite;
+  will-change: transform;
+}
+
+@keyframes pan {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-33.3333%); }   /* exactly one image's width */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .panorama { animation: none; }   /* respects people who dislike motion */
 }
 
 .frontpage-resource {
@@ -17,7 +43,7 @@ body {
     margin: -75vmin 0 0 -75vmin;
     animation: rotate 60s linear infinite;
     z-index: -3;
-    opacity: 0.3;
+    opacity: 0.5;
     filter: drop-shadow(0 0 15px red);
     -webkit-user-drag: none;
     user-select: none;
