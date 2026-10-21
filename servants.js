@@ -16,6 +16,7 @@ fetch('data/servants.json')
     buildCheckboxGroup('prosFilterGroup', data.traitsList.pros, 'pro-checkbox');
     buildCheckboxGroup('consFilterGroup', data.traitsList.cons, 'con-checkbox');
     renderGrid(allServants);
+    openServantFromUrl();
   });
 
 
@@ -74,6 +75,11 @@ function renderGrid(servants) {
 }
 
 function openServantModal(servant) {
+  showServantModal(servant);
+  history.pushState({ slug: servant.slug }, '', `?servant=${servant.slug}`);
+}
+
+function showServantModal(servant) {
   document.getElementById('modalPortrait').src =
     `images/Servants/${servant.servant_id}/Archetype.webp`;
   document.getElementById('modalPortrait').fetchPriority = 'high'
@@ -304,6 +310,9 @@ document.getElementById('modalOverlay').addEventListener('click', (event) => {
 
 function closeServantModal() {
   document.getElementById('modalOverlay').classList.remove('is-open');
+  if (new URLSearchParams(window.location.search).has('servant')) {
+    history.pushState({}, '', window.location.pathname);   // back to plain servants.html
+  }
 }
 
 function buildSortMenu() {
@@ -341,6 +350,25 @@ document.getElementById('sortToggle').addEventListener('click', () => {
 document.addEventListener('click', (event) => {
   if (!event.target.closest('.sort-dropdown')) {
     document.getElementById('sortMenu').classList.add('hidden');
+  }
+});
+
+function getSlugFromUrl() {
+  return new URLSearchParams(window.location.search).get('servant');
+}
+
+function openServantFromUrl() {
+  const servant = allServants.find((s) => s.slug === getSlugFromUrl());
+  if (servant) showServantModal(servant);   // no pushState: the URL is already right
+}
+
+// runs when the user presses the browser's Back/Forward buttons
+window.addEventListener('popstate', () => {
+  const servant = allServants.find((s) => s.slug === getSlugFromUrl());
+  if (servant) {
+    showServantModal(servant);
+  } else {
+    document.getElementById('modalOverlay').classList.remove('is-open');
   }
 });
 
