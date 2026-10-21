@@ -252,7 +252,7 @@ body {
   gap: 12px;
   padding: 0;
   background-image: linear-gradient(rgba(50, 8, 8, 0.3), rgba(50, 8, 8, 0.3)),
-    url('images/Modal-Backgrounds/071da864-46a5-4ccd-96d7-a5b687e3b330.png');
+    url('images/Modal-Backgrounds/Master_Back.webp');
   background-size: 100%;
   padding: 2%;
   border-radius: 15px;
@@ -300,7 +300,7 @@ body {
 .ascension-info {
   background-color: azure;
   background-image: linear-gradient(rgba(50, 8, 8, 0.3), rgba(50, 8, 8, 0.3)),
-    url('images/Modal-Backgrounds/Ascension_Banner.png');
+    url('images/Modal-Backgrounds/Ascension_Banner.webp');
   background-size: 100%;
   border-radius: 15px;
   padding: 2%;
