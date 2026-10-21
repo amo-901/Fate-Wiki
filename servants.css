@@ -179,11 +179,10 @@ body {
 }
 
 .modal-info {
-  display:flex;
+  display: flex;
   gap: 12px;
-  padding: 0;
   background-image: linear-gradient(rgba(50, 8, 8, 0.3), rgba(50, 8, 8, 0.3)),
-    url('images/Modal-Backgrounds/Saber-Background.webp');
+    var(--modal-bg, url('images/Modal-Backgrounds/Saber-Background.webp'));
   background-size: 100%;
   padding: 2%;
   border-radius: 15px;
