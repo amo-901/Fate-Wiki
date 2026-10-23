@@ -182,7 +182,7 @@ body {
   display: flex;
   gap: 12px;
   background-image: linear-gradient(rgba(50, 8, 8, 0.3), rgba(50, 8, 8, 0.3)),
-    var(--modal-bg, url('images/Modal-Backgrounds/Saber-Background.webp'));
+    url('images/Modal-Backgrounds/golden_parchment_banner_1814x835.png');  
   background-size: 100%;
   padding: 2%;
   border-radius: 15px;
@@ -198,7 +198,6 @@ body {
   display: flex;
   flex-direction: column;
   margin: 15px;
-  margin-top: 0px;
 }
 
 .modal-servant-title {

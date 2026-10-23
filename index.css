@@ -14,7 +14,7 @@ body {
   z-index: -99;                            /* behind everything */
   pointer-events: none;                   /* clicks go through it */
 
-  animation: pan 300s linear infinite;
+  animation: pan 420s linear infinite;
   will-change: transform;
 }
 
@@ -40,7 +40,7 @@ body {
     width: 150vmin;
     height: 150vmin;
     margin: -75vmin 0 0 -75vmin;
-    animation: rotate 60s linear infinite;
+    animation: rotate 120s linear infinite;
     z-index: -3;
     opacity: 0.5;
     filter: drop-shadow(0 0 15px red);

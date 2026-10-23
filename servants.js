@@ -85,10 +85,6 @@ function showServantModal(servant) {
     `images/Servants/${servant.servant_id}/Archetype.webp`;
   document.getElementById('modalPortrait').fetchPriority = 'high'
 
-  const modalInfo = document.querySelector('.modal-info');
-  const bgFile = `${servant.class.replace(/ /g, '-')}-Background.webp`;
-  modalInfo.style.setProperty('--modal-bg', `url('images/Modal-Backgrounds/${bgFile}')`);
-
   const skillsContainer = document.getElementById('modalSkills');
   skillsContainer.innerHTML = '';   // clear any previous servant's skills first
 
