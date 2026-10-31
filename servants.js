@@ -1,6 +1,6 @@
 let allServants = [];   // keeps the fetched data around so the popup can use it later
 
-let sortMode = 0;
+let sortMode = 0; // testing comments
 
 const sortModes = [
   { label: 'Default', compare: null },
