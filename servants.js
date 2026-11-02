@@ -8,7 +8,7 @@ const sortModes = [
   { label: 'Z-A', compare: (a, b) => b.servant_name.localeCompare(a.servant_name) }
 ]; // we create an array of objects. each object has a key value pair, for the sort label name. it has a compare key as well, and we pass a func into it
 // arrow function taking two parameters, a and b. these will be two servant objects.
-// localeCompare is a built in function that compares two strings and returns true if the first argument belongs after the second argument alphabeticaly
+// localeCompare is a built in function that compares two strings and returns a positive number if the first argument belongs after the second argument alphabeticaly, negative if first argument goes first
 // a, b argument is required to tell it to sort alphabetically
 
 const allClasses = [
@@ -28,7 +28,7 @@ fetch('data/servants.json') // fetch the json file from the data folder
     buildCheckboxGroup('prosFilterGroup', data.traitsList.pros, 'pro-checkbox'); // these grab the pros lists from the json
     buildCheckboxGroup('consFilterGroup', data.traitsList.cons, 'con-checkbox');
     renderGrid(allServants); 
-    openServantFromUrl(); // this will read the current url and immediately load that servant data after the grid is rendered
+    openServantFromUrl(); // this will read the current url and immediately load that servant modal data after the grid is rendered
   });
 
 
