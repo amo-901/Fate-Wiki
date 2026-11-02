@@ -1,40 +1,51 @@
 let allServants = [];   // keeps the fetched data around so the popup can use it later
 
-let sortMode = 0;
+let sortMode = 0; //this will tell you that the sort mode should be 0, the default. 
 
 const sortModes = [
   { label: 'Default', compare: null },
   { label: 'A-Z', compare: (a, b) => a.servant_name.localeCompare(b.servant_name) },
   { label: 'Z-A', compare: (a, b) => b.servant_name.localeCompare(a.servant_name) }
-];
+]; // we create an array of objects. each object has a key value, for the sort label name. it has a compare key as well, and we pass a func into it
+// arrow function taking two parameters, a and b. these will be two servant objects.
+// localeCompare is a built in function that compares two strings and returns true if the first argument belongs after the second argument alphabeticaly
+// a, b argument is required to tell it to sort alphabetically
 
-fetch('data/servants.json')
-  .then(response => response.json())
+const allClasses = [
+  "Saber", "Lancer", "Archer", "Rider", "Assassin", "Caster", "Berserker",
+  "Ruler", "Avenger", "Foreigner", "Alter Ego", "Pretender", "Shielder",
+  "Beast", "Moon Cancer"
+]; // make a list of the existing classes in the game
+
+const allPlaystyles = ["Bulwark", "Nuker", "Scammer", "Skirmisher", "Thrasher", "Wildcard"]; // make a list of existing playstyles
+
+fetch('data/servants.json') // fetch the json file from the data folder
+  .then(response => response.json()) // arrow function only fulfills after fetch is complete, converts raw data to json
   .then(data => {
-    allServants = data.servants;
-    buildCheckboxGroup('classFilterGroup', allClasses, 'class-checkbox');
+    allServants = data.servants; //take all the servants from the json and store in all servants
+    buildCheckboxGroup('classFilterGroup', allClasses, 'class-checkbox'); //running these functions, passing in the lists. 
     buildCheckboxGroup('playstyleFilterGroup', allPlaystyles, 'playstyle-checkbox');
-    buildCheckboxGroup('prosFilterGroup', data.traitsList.pros, 'pro-checkbox');
+    buildCheckboxGroup('prosFilterGroup', data.traitsList.pros, 'pro-checkbox'); // these grab the pros lists from the json
     buildCheckboxGroup('consFilterGroup', data.traitsList.cons, 'con-checkbox');
-    renderGrid(allServants);
-    openServantFromUrl();
+    renderGrid(allServants); 
+    openServantFromUrl(); // this will read the current url and immediately load that servant data after the grid is rendered
   });
 
 
 function renderGrid(servants) {
   const grid = document.getElementById('cardsGrid');
-  grid.innerHTML = '';
+  grid.innerHTML = ''; //grid starts off empty
 
-  servants.forEach((servant) => {
-    const slot = document.createElement('div');
-    slot.classList.add('servant-card-slot');
+  servants.forEach((servant) => { // for each servant in the array of servants provided, forEach loops through array items
+    const slot = document.createElement('div'); // create a div element called slot, as in the card slot
+    slot.classList.add('servant-card-slot'); // make the slot part of this class, for the sake of CSS 
 
-    const img = document.createElement('img');
-    img.classList.add('servant-card');
-    img.src = `images/Servants/${servant.servant_id}/Archetype.webp`;
-    img.alt = servant.servant_name;
+    const img = document.createElement('img'); // create an img element 
+    img.classList.add('servant-card'); // give the img element the servant-card class 
+    img.src = `images/Servants/${servant.servant_id}/Archetype.webp`; // image comes from this path, passing in the servant id 
+    img.alt = servant.servant_name; // if the image doesnt load, just display the name of the servant
     img.loading = 'lazy'; // for making it easier to load website
-    img.fetchPriority = 'low';
+    img.fetchPriority = 'low'; // low image fetch priority 
 
     img.addEventListener('mouseenter', () => {
       img.classList.add('is-hovering');
@@ -64,14 +75,13 @@ function renderGrid(servants) {
       img.style.transition = 'transform 0.5s ease, box-shadow 0.5s ease';
       img.style.transform = 'translateY(0) rotateX(0deg) rotateY(0deg) scale(1)';
     });
-    // --- end new ---
 
     img.addEventListener('click', () => {
       openServantModal(servant);
     });
 
-    slot.appendChild(img);
-    grid.appendChild(slot);
+    slot.appendChild(img); // append the image to the slot
+    grid.appendChild(slot); //append the slot to the grid, this is what finally adds the servant to the grid
   });
 }
 
@@ -207,14 +217,6 @@ function getAssetPaths(servant) {
 
   return assetPaths;
 }
-
-const allClasses = [
-  "Saber", "Lancer", "Archer", "Rider", "Assassin", "Caster", "Berserker",
-  "Ruler", "Avenger", "Foreigner", "Alter Ego", "Pretender", "Shielder",
-  "Beast", "Moon Cancer"
-];
-
-const allPlaystyles = ["Bulwark", "Nuker", "Scammer", "Skirmisher", "Thrasher", "Wildcard"];
 
 function buildCheckboxGroup(containerId, values, checkboxClass) {
   const group = document.getElementById(containerId);
