@@ -6,7 +6,7 @@ const sortModes = [
   { label: 'Default', compare: null },
   { label: 'A-Z', compare: (a, b) => a.servant_name.localeCompare(b.servant_name) },
   { label: 'Z-A', compare: (a, b) => b.servant_name.localeCompare(a.servant_name) }
-]; // we create an array of objects. each object has a key value, for the sort label name. it has a compare key as well, and we pass a func into it
+]; // we create an array of objects. each object has a key value pair, for the sort label name. it has a compare key as well, and we pass a func into it
 // arrow function taking two parameters, a and b. these will be two servant objects.
 // localeCompare is a built in function that compares two strings and returns true if the first argument belongs after the second argument alphabeticaly
 // a, b argument is required to tell it to sort alphabetically
