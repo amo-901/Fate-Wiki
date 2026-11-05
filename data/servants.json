@@ -6718,7 +6718,7 @@
     },
     {
       "servant_id": "S0120",
-      "servant_name": "King Hassan ",
+      "servant_name": "King Hassan",
       "slug": "king-hassan",
       "class": "Assassin",
       "playstyle": "Bulwark",
@@ -10762,7 +10762,7 @@
       "profile_artist": null,
       "description": null,
       "ascension": {
-        "card_name": "Corruptuon",
+        "card_name": "Corruption",
         "card_slug": "corruption"
       },
       "abilities": [
