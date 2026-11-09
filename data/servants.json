@@ -13329,6 +13329,248 @@
       },
       "abilities": [],
       "assets": []
+    },
+    {
+      "master_id": "M067",
+      "master_name": "Aoko Aozaki",
+      "slug": "aoko-aozaki",
+      "mechanic": "Combat",
+      "has_abilities": true,
+      "has_assets": false,
+      "is_beta_master": false,
+      "is_custom_master": true,
+      "master_maker": "VyseVyrtue",
+      "profile_artist": null,
+      "description": null,
+      "ascension": {
+        "card_name": "Full Throttle",
+        "card_slug": "full-throttle"
+      },
+      "abilities": [
+        {
+          "card_name": "The Fifth Magic",
+          "card_slug": "the-fifth-magic",
+          "ability_order": 1,
+          "category": "passive"
+        },
+        {
+          "card_name": "Starmine",
+          "card_slug": "starmine",
+          "ability_order": 2,
+          "category": "attack"
+        },
+        {
+          "card_name": "Starbow",
+          "card_slug": "starbow",
+          "ability_order": 3,
+          "category": "passive"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "master_id": "M068",
+      "master_name": "Flat Escardos",
+      "slug": "flat-escardos",
+      "mechanic": "Utility",
+      "has_abilities": true,
+      "has_assets": true,
+      "is_beta_master": false,
+      "is_custom_master": true,
+      "master_maker": "VyseVyrtue",
+      "profile_artist": null,
+      "description": null,
+      "ascension": {
+        "card_name": "Shape Reality",
+        "card_slug": "shape-reality"
+      },
+      "abilities": [
+        {
+          "card_name": "Improvised Spell",
+          "card_slug": "improvised-spell",
+          "ability_order": 1,
+          "category": "passive"
+        }
+      ],
+      "assets": [
+        {
+          "card_name": "Magic Matrix",
+          "card_slug": "magic-matrix",
+          "asset_order": 1,
+          "category": "passive"
+        }
+      ]
+    },
+    {
+      "master_id": "M069",
+      "master_name": "Wolf",
+      "slug": "wolf",
+      "mechanic": "Utility",
+      "has_abilities": false,
+      "has_assets": false,
+      "is_beta_master": false,
+      "is_custom_master": true,
+      "master_maker": "VyseVyrtue",
+      "profile_artist": null,
+      "description": null,
+      "ascension": {
+        "card_name": "Nature's Bond",
+        "card_slug": "natures-bond"
+      },
+      "abilities": [],
+      "assets": []
+    },
+    {
+      "master_id": "M070",
+      "master_name": "Francesca Prelati",
+      "slug": "francesca-prelati",
+      "mechanic": "Utility",
+      "has_abilities": true,
+      "has_assets": false,
+      "is_beta_master": false,
+      "is_custom_master": true,
+      "master_maker": "VyseVyrtue",
+      "profile_artist": null,
+      "description": null,
+      "ascension": {
+        "card_name": "The Ancient One",
+        "card_slug": "the-ancient-one"
+      },
+      "abilities": [
+        {
+          "card_name": "Francois",
+          "card_slug": "francois",
+          "ability_order": 1,
+          "category": "passive"
+        },
+        {
+          "card_name": "Make Things Fun",
+          "card_slug": "make-things-fun",
+          "ability_order": 2,
+          "category": "passive"
+        },
+        {
+          "card_name": "Masterminds",
+          "card_slug": "masterminds",
+          "ability_order": 3,
+          "category": "passive"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "master_id": "M071",
+      "master_name": "Arima Miyako",
+      "slug": "arima-miyako",
+      "mechanic": "Combat",
+      "has_abilities": true,
+      "has_assets": false,
+      "is_beta_master": false,
+      "is_custom_master": true,
+      "master_maker": "VyseVyrtue",
+      "profile_artist": null,
+      "description": null,
+      "ascension": {
+        "card_name": "Bajiquan Mastery",
+        "card_slug": "bajiquan-mastery"
+      },
+      "abilities": [
+        {
+          "card_name": "Dojo-Training",
+          "card_slug": "dojo-training",
+          "ability_order": 1,
+          "category": "passive"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "master_id": "M072",
+      "master_name": "Philia",
+      "slug": "philia",
+      "mechanic": "Combat",
+      "has_abilities": true,
+      "has_assets": false,
+      "is_beta_master": false,
+      "is_custom_master": true,
+      "master_maker": "VyseVyrtue",
+      "profile_artist": null,
+      "description": null,
+      "ascension": {
+        "card_name": "Divine Privilege",
+        "card_slug": "divine-privilege"
+      },
+      "abilities": [
+        {
+          "card_name": "Materialize",
+          "card_slug": "materialize",
+          "ability_order": 1,
+          "category": "passive"
+        },
+        {
+          "card_name": "Divine Core",
+          "card_slug": "philia-divine-core",
+          "ability_order": 2,
+          "category": "attack"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "master_id": "M073",
+      "master_name": "Alice Kuonji",
+      "slug": "alice-kuonji",
+      "mechanic": "Combat",
+      "has_abilities": true,
+      "has_assets": false,
+      "is_beta_master": false,
+      "is_custom_master": true,
+      "master_maker": "VyseVyrtue",
+      "profile_artist": null,
+      "description": null,
+      "ascension": {
+        "card_name": "",
+        "card_slug": ""
+      },
+      "abilities": [
+        {
+          "card_name": "Creator of Fables",
+          "card_slug": "creator-of-fables",
+          "ability_order": 1,
+          "category": "passive"
+        },
+        {
+          "card_name": "Diddle Diddle",
+          "card_slug": "diddle-diddle",
+          "ability_order": 2,
+          "category": "attack"
+        },
+        {
+          "card_name": "Second Ticket",
+          "card_slug": "second-ticket",
+          "ability_order": 3,
+          "category": "attack"
+        },
+        {
+          "card_name": "Cock Robin",
+          "card_slug": "cock-robin",
+          "ability_order": 4,
+          "category": "attack"
+        },
+        {
+          "card_name": "Thames Troll",
+          "card_slug": "thames-troll",
+          "ability_order": 5,
+          "category": "attack"
+        },
+        {
+          "card_name": "Tweedle Twins",
+          "card_slug": "tweedle-twins",
+          "ability_order": 6,
+          "category": "attack"
+        }
+      ],
+      "assets": []
     }
   ],
   "mechanicsList": [
