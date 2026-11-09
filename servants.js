@@ -19,6 +19,26 @@ const allClasses = [
 
 const allPlaystyles = ["Bulwark", "Nuker", "Scammer", "Skirmisher", "Thrasher", "Wildcard"]; // make a list of existing playstyles
 
+function buildCheckboxGroup(containerId, values, checkboxClass) {
+  const group = document.getElementById(containerId);
+
+  values.forEach((value) => {
+    const label = document.createElement('label');
+    label.classList.add('filter-checkbox-label');
+
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.value = value;
+    checkbox.classList.add(checkboxClass);
+    checkbox.addEventListener('change', applyFilters);   // instant filtering
+
+    label.appendChild(checkbox);
+    label.appendChild(document.createTextNode(value));
+
+    group.appendChild(label);
+  });
+}
+
 fetch('data/servants.json') // fetch the json file from the data folder
   .then(response => response.json()) // arrow function only fulfills after fetch is complete, converts raw data to json
   .then(data => {
@@ -216,26 +236,6 @@ function getAssetPaths(servant) {
   }
 
   return assetPaths;
-}
-
-function buildCheckboxGroup(containerId, values, checkboxClass) {
-  const group = document.getElementById(containerId);
-
-  values.forEach((value) => {
-    const label = document.createElement('label');
-    label.classList.add('filter-checkbox-label');
-
-    const checkbox = document.createElement('input');
-    checkbox.type = 'checkbox';
-    checkbox.value = value;
-    checkbox.classList.add(checkboxClass);
-    checkbox.addEventListener('change', applyFilters);   // instant filtering
-
-    label.appendChild(checkbox);
-    label.appendChild(document.createTextNode(' ' + value));
-
-    group.appendChild(label);
-  });
 }
 
 function getCheckedValues(checkboxClass) {
