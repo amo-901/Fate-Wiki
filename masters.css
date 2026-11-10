@@ -274,6 +274,11 @@ body {
 .modal-master-title {
   display: flex;
   justify-content: space-between;
+  color: white;
+}
+
+.modal-master-description {
+  color: white;
 }
 
 .modal-section {
